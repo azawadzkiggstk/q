@@ -1,0 +1,175 @@
+/// Defines properties supposed to be applied to button like components.
+/// This pattern defined reusable properties across all buttons stylesheets.
+/// @group Components
+%button {
+  background-color: $color-secondary;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s;
+  
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+}
+  
+.button {
+  @extend %button;
+}
+  
+/// Defines "outlined" style of a button.
+/// @group Components
+/// @todo add double slash
+.button-outline {
+  @extend %button;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  padding: 1rem 1.2rem;
+  transition: border 0.3s;
+}
+  
+/// Defines "inline" style of a button.
+/// @group Components
+/// @todo add double slash
+.button-inline {
+  align-items: center;
+  color: #dadada;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  svg {
+    fill: #dadada !important;
+  }
+}
+  
+/// Defines "underlined" style of a button. This variation is
+/// used by tabs component.
+/// @group Components
+/// @todo add double slash
+.button-underline {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+  color: #000;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  transition: border 0.3s;
+  
+  &:hover {
+    border-color: lighten(#000, 25%);
+  }
+  
+  &.active {
+    border-color: #000;
+  }
+}
+  
+/// Defines a default colors palette for buttons. As Gutenberg allows
+/// to pick one of predefined color by changing the component's class
+/// (see for example `.has-#{$name}-color` like classes), this pattern
+/// simply generates all of them to be added whenever needed.
+/// @group Components
+.button-palette {
+  background: $color-primary;
+  color: $color-background;
+  
+  &:visited {
+    color: $color-background;
+  }
+  
+  &:hover {
+    background: lighten($color-primary, 10%);
+    color: $color-background;
+  }
+  
+  
+  
+  &.has-text-color {
+    @each $name, $color in $color__palette {
+      &.has-#{$name}-color {
+        color: $color;
+  
+        &:visited {
+          color: $color;
+        }
+      }
+    }
+  }
+  
+  &.has-background {
+    @each $name, $color in $color__palette {
+      &.has-#{$name}-background-color {
+        background: $color;
+  
+        &:hover {
+          @if (lightness($color) > 60) {
+            background: darken($color, 7.5%);
+          } @else {
+            background: lighten($color, 7.5%);
+          }
+        }
+      }
+    }
+  }
+}
+  
+/// Defines a default colors palette for outlined buttons. As Gutenberg allows
+/// to pick one of predefined color by changing the component's class
+/// (see for example `.has-#{$name}-color` like classes), this pattern
+/// simply generates all of them to be added whenever needed.
+/// @group Components
+/// @todo add double slash
+.button-outline-palette {
+  background: $color-tertiary;
+  border-color: $color-primary;
+  color: $color-primary;
+  
+  &.has-text-color {
+    @each $name, $color in $color__palette {
+      &.has-#{$name}-color {
+        color: $color;
+  
+        &:visited {
+          color: $color;
+        }
+  
+        &:hover {
+          @if (lightness($color) > 60) {
+            color: darken($color, 15%);
+          } @else {
+            color: lighten($color, 15%);
+          }
+        }
+      }
+    }
+  }
+  
+  &.has-background {
+    @each $name, $color in $color__palette {
+      &.has-#{$name}-background-color {
+        background: $color-primary;
+        border-color: $color;
+  
+        &:hover {
+          background: $color-tertiary;
+  
+          @if (lightness($color) > 60) {
+            border-color: darken($color, 25%);
+          } @else {
+            border-color: lighten($color, 25%);
+          }
+        }
+      }
+    }
+  }
+}

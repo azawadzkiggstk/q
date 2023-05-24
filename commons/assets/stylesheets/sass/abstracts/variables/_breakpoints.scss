@@ -1,0 +1,17 @@
+/// Layout Breakpoints
+/// @type Length
+$breakpoint-x-small: 0 !default;         // mobile
+$breakpoint-small: 576px !default;       // tablet
+$breakpoint-medium: 768px !default;      // laptop
+$breakpoint-large: 992px !default;       // desktop
+$breakpoint-x-large: 1200px !default;    // extra large screens
+$breakpoint-xx-large: 1400px !default;   // extra extra large
+
+$breakpoints: (
+  xs: $breakpoint-x-small,
+  sm: $breakpoint-small,
+  md: $breakpoint-medium,
+  lg: $breakpoint-large,
+  xl: $breakpoint-x-large,
+  xxl: $breakpoint-xx-large
+) !default;

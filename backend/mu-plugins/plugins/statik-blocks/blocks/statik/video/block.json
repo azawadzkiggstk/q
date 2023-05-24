@@ -1,0 +1,71 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/video",
+	"version": "4.13.0",
+	"title": "Video",
+	"category": "common",
+	"description": "Embed a video uploaded to either YouTube or Vimeo.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"height": {
+			"type": "string",
+			"default": "320px"
+		},
+		"openAsModal": {
+			"type": "boolean",
+			"default": false
+		},
+		"followUp": {
+			"enum": [ "none", "modal", "redirect" ],
+			"default": "none"
+		},
+		"hasOverlay": {
+			"type": "boolean",
+			"default": false
+		},
+		"overlayColor": {
+			"type": "string"
+		},
+		"overlayColorOpacity": {
+			"type": "number",
+			"default": 80
+		},
+		"overlayImage": {
+			"type": "string"
+		},
+		"overlayHasParallax": {
+			"type": "boolean",
+			"default": false
+		},
+		"overlayIsRepeated": {
+			"type": "boolean",
+			"default": false
+		},
+		"overlayAltText": {
+			"type": "string"
+		},
+		"overlayFocalPoint": {
+			"type": "object"
+		}
+	},
+	"example": {
+		"attributes": {
+			"url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

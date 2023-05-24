@@ -1,0 +1,6 @@
+@include gatsby() {
+}
+
+@include gutenberg() {
+  @import 'editor';
+}

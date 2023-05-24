@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Statik",
+  "version": "6.0.4",
+  "author": "Statik Team <hello@statik.space>",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://statik.space/",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "devDependencies": {
+    "@statik-space/statik-scripts": "^1.0.0",
+    "cypress": "^9.5.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "scripts": {
+    "docker": "docker compose -f ./../docker-compose.yml up",
+    "build": "statik-scripts backend build",
+    "develop": "statik-scripts backend develop"
+  }
+}

@@ -1,0 +1,56 @@
+$sizes: 540, 630, 730, 770, 930;
+
+@each $size in $sizes {
+  .page-#{$size} {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: #{$size}px !important;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@each $size, $device in $breakpoints {
+  .row-column-#{$size} {
+    @include respond-to-down(#{$size}) {
+      flex-direction: column !important;
+
+      .wp-block-column {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+//remove gaps in rows
+.no-gutters {
+  gap: 0;
+}
+
+%alignfull {
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  max-width: 1000%;
+  width: auto;
+}
+
+%page {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  width: 100%;
+}
+
+.statik-blocks {
+  padding: 0 15px;
+}
+
+.statik-blocks > [data-align='full'] {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}

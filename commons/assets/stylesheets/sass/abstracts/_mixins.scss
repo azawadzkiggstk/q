@@ -1,0 +1,146 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Generates styles for Gatsby (frontend)
+/// based on defined `compile_gatsby` variable
+/// @group Helpers
+@mixin gatsby() {
+  @if variable_exists('compile_gatsby') and $compile_gatsby {
+    @content;
+  }
+}
+
+/// Generates styles for Gutenberg (backend)
+/// based on defined `compile_gatsby` variable
+/// @group Helpers
+@mixin gutenberg() {
+  @if variable_exists('compile_gutenberg') and $compile_gutenberg {
+    @content;
+  }
+}
+
+/// Clearfix mixin
+/// @group Helpers
+/// @link http://nicolasgallagher.com/micro-clearfix-hack/ Credit
+/// @group Helpers
+@mixin clearfix() {
+  &::before,
+  &::after {
+    /**
+     * The space content is one way to avoid an Opera bug when the
+     * contenteditable attribute is included anywhere else in the document.
+     * Otherwise it causes space to appear at the top and bottom of elements
+     * that are clearfixed.
+     */
+    content: ' ';
+    /**
+     * The use of `table` rather than `block` is only necessary if using
+     * `:before` to contain the top-margins of child elements.
+     */
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+/// @group Helpers
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Kitty Giraudel
+/// @param {String} $context
+/// @group Helpers
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+/// Mixin to manage responsive breakpoints
+/// @author Kitty Giraudel
+/// @param {String} $breakpoint - Breakpoint name
+/// @require $breakpoints
+/// @group Helpers
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media only screen and (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. '
+      + 'Available breakpoints are: #{map-keys($breakpoints)}.';
+  }
+}
+
+
+@mixin respond-to-down($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media only screen and (max-width: #{map-get($breakpoints, $breakpoint) - 1}) {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. '
+      + 'Available breakpoints are: #{map-keys($breakpoints)}.';
+  }
+}
+
+
+/// Generates helper classes for paragraph-like blocks. The mixin
+/// creates `.has-#{$name}-color` colors to be used together with
+/// `.has-text-color`. All colors specified in `$color__palette`
+/// variable are generated as helper classes.
+/// @group Helpers
+@mixin has-text-color {
+  &.has-text-color {
+    @each $name, $color in $color__palette {
+      &.has-#{$name}-color {
+        color: $color;
+      }
+    }
+  }
+}
+
+/// Generates helper classes for paragraph-like blocks. The mixin
+/// creates `.has-#{$name}-background-color` classes. All colors
+/// specified in `$color__palette` variable are generated as
+/// helper classes.
+/// @group Helpers
+@mixin has-background-color {
+  @each $name, $color in $color__palette {
+    &.has-#{$name}-background-color {
+      background: $color;
+    }
+  }
+}

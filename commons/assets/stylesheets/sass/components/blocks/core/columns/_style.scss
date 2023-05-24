@@ -1,0 +1,7 @@
+.statik-blocks .wp-block-columns {
+  gap: 1.7rem;
+ 
+  &:not(.alignwide):not(.alignfull) {
+    clear: both;
+  }
+}

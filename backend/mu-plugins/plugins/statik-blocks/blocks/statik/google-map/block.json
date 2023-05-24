@@ -1,0 +1,53 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/google-map",
+	"version": "4.13.0",
+	"title": "Google Map",
+	"category": "layout",
+	"description": "Displaying map from Google Map",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"latitude": {
+			"type": "number"
+		},
+		"longitude": {
+			"type": "number"
+		},
+		"zoom": {
+			"type": "number"
+		},
+		"height": {
+			"type": "string",
+			"default": "320px"
+		},
+		"showMarker": {
+			"type": "boolean",
+			"default": false
+		},
+		"markerTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"mapStyle": {
+			"type": "string",
+			"enum": [ "default", "dark", "light", "night" ],
+			"default": "default"
+		}
+	},
+	"example": {
+		"attributes": {
+			"latitude": 51.5,
+			"longitude": 0,
+			"zoom": 13
+		}
+	},
+	"supports": {
+		"align": [ "center", "wide", "full" ]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./build/view.js"
+}

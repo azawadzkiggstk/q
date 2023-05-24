@@ -1,0 +1,87 @@
+.wp-block-statik-video-cards {
+  --wp-block-statik-video-cards--attr--cardsPerRow: 3;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.wp-block-statik-video-cards {
+  .wp-block-statik-video-cards__card {
+    flex: 0 0 calc(100% / var(--wp-block-statik-video-cards--attr--cardsPerRow) - 30px);
+  }
+}
+
+.wp-block-statik-video-cards__card {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.wp-block-statik-video-cards__image {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-video-cards__categories {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-right: 5px;
+  }
+}
+
+.wp-block-statik-video-cards__updated {
+  margin-left: auto;
+}
+
+.wp-block-statik-video-cards__title {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-video-cards__excerpt {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-video-cards__tags {
+  display: flex;
+  flex: 0 0 100%;
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-right: 5px;
+  }
+}
+
+.wp-block-statik-video-cards__read-more {
+
+}
+
+.wp-block-statik-video-cards__play-button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  color: #000;
+  fill: #000;
+
+  svg {
+    width: 100px;
+    height: auto;
+    fill: #fff;
+    background: #222222;
+    border-radius: 50%;
+    border: 2px solid #222222;
+  }
+}

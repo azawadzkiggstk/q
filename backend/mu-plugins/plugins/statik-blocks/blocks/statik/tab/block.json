@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/tab",
+	"version": "4.13.0",
+	"title": "Tab",
+	"category": "layout",
+	"description": "A child item of “Tabs” block",
+	"parent": [ "statik/tabs" ],
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"tabClassName": {
+			"type": "string"
+		},
+		"isPreSelected": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"inserter": false,
+		"reusable": false,
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

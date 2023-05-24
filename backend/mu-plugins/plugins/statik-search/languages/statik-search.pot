@@ -1,0 +1,234 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Statik Search\n"
+"POT-Creation-Date: 2023-02-16 08:04+0100\n"
+"PO-Revision-Date: 2022-11-09 11:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: Statik.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: src/Dashboard/Dashboard.php:70
+#, php-format
+msgid "Are you sure you want to update Search engine for %s environment?"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:74
+msgid "The browser window must remain open until completed."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:77
+msgid "Update search"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:98
+msgid "Your settings have not been updated. Please try again!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:109
+msgid "Your settings have been updated."
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:47
+msgid "Delete old posts data from search engine"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:48
+msgid "The search engine is cleaned up from old records."
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:53
+msgid "Upload posts data to search engine"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:55
+msgid ""
+"The search engine replaced with up-to-date information on all supported CPTs."
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:62
+msgid "Update search engine behavioral settings"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:64
+msgid "Search engine is updated with new settings from the Settings tab."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:55
+msgid "Search API settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:59
+msgid "API hook"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:61
+msgid "The URL of the API endpoint that can be used to manage search engine."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:68
+msgid "API token"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:69
+msgid "Token used to authorize API calls."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:74
+msgid "Site path prefix"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:76
+msgid ""
+"This prefix is used during the build in case of using a multisite instance. "
+"Mostly, the value is equal to WP multisite blog path."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:85
+msgid "Supported custom post types"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:87
+msgid "Posts from selected CPTs will be displayed in search results."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:107
+msgid "Search engine settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:109
+msgid "These settings will be saved during the next search engine update!"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:115
+msgid "Attributes to retrieve"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:117
+msgid ""
+"This parameter controls which attributes to retrieve and which not to "
+"retrieve. This setting helps to improve performance by reducing the size of "
+"records in the search response. Reducing the size of records leads to faster "
+"network transfers."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:127
+#: src/Dashboard/Page/SettingsPage.php:164
+msgid ""
+"Put each attribute priority in the following line, e.g.:&#10;attribute1&#10;"
+"attribute2"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:134
+msgid "Searchable attributes"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:136
+msgid ""
+"The complete list of attributes used for searching. This setting is critical "
+"to establishing excellent relevance for two main reasons: it limits the "
+"scope of a search and it creates a priority order."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:146
+msgid ""
+"Put each comma-separated attribute priority in the following line, e.g.:&#10;"
+"attribute1, attribute2&#10;attribute3"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:154
+msgid "Filterable attributes"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:156
+msgid ""
+"The complete list of attributes that will be used for filtering. Use this "
+"setting to make any string attribute filterable."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:174
+msgid "Debug settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:178
+msgid "Debug mode"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:179
+msgid "Whether plugin requests should execute in \"debug\" mode."
+msgstr ""
+
+#: src/Partials/DeploymentPage.php:23
+msgid ""
+"Search cannot be updated because of missing configuration. Go to settings "
+"and fill API hook, and API token."
+msgstr ""
+
+#: src/Partials/DeploymentPage.php:28
+#, php-format
+msgid "Update %s search engine"
+msgstr ""
+
+#: src/Partials/DeploymentPage.php:29
+msgid "[Untitled environment]"
+msgstr ""
+
+#: src/Plugin.php:84
+msgid "The plugin requires at least PHP 8.0"
+msgstr ""
+
+#: src/Plugin.php:127
+msgid "Statik Search plugin has been disabled!"
+msgstr ""
+
+#: src/Plugin.php:128
+msgid "Please turn on Statik Deployment plugin and try again!"
+msgstr ""
+
+#: src/Rest/V1/Search.php:88 src/Rest/V1/Search.php:153
+#: src/Rest/V1/Search.php:264
+msgid "Environment does not exists."
+msgstr ""
+
+#: src/Rest/V1/Search.php:98 src/Rest/V1/Search.php:163
+#: src/Rest/V1/Search.php:274
+msgid ""
+"There is an other deployment in progress. Check status and please try again."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Statik Search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://statik.space"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WordPress plugin for easier integration with Statik Search service powered "
+"by ElasticSearch."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Statik LTD"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://statik.space/"
+msgstr ""

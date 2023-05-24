@@ -1,0 +1,44 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/icons",
+	"version": "4.13.0",
+	"title": "Icons",
+	"category": "design",
+	"description": "Prompt visitors to take action with a group of icons.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"contentJustification": {
+			"type": "string"
+		},
+		"orientation": {
+			"type": "string",
+			"default": "horizontal"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": [ "wide", "full" ],
+		"__experimentalExposeControlsToChildren": true
+	},
+	"example": {
+		"innerBlocks": [
+			{
+				"name": "statik/icon",
+				"attributes": {
+					"icon": "blocks"
+				}
+			},
+			{
+				"name": "statik/icon",
+				"attributes": {
+					"icon": "blocks"
+				}
+			}
+		]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

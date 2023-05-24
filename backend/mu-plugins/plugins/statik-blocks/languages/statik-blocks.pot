@@ -1,0 +1,2102 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Statik Gutenberg Blocks\n"
+"POT-Creation-Date: 2023-02-16 08:04+0100\n"
+"PO-Revision-Date: 2022-09-26 08:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: Statik.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: assets/javascripts/components/controls/CustomReplaceControl.js:12
+#: blocks/core/cover/src/edit/block-controls.js:89
+msgid "Replace"
+msgstr ""
+
+#: assets/javascripts/components/controls/QueryControl.js:33
+#, javascript-format
+msgid ""
+"It is possible to alter some properties of the WordPress query for fetching "
+"cards. The allowed params of WP-API can be found %1$shere%2$s."
+msgstr ""
+
+#: assets/javascripts/components/controls/QueryControl.js:43
+msgid "Modify WordPress query manually"
+msgstr ""
+
+#: assets/javascripts/components/controls/QueryControl.js:48
+msgid "search=example&orderby=date"
+msgstr ""
+
+#: assets/javascripts/filters/add-block-font-variations.js:54
+msgid "Font Variations"
+msgstr ""
+
+#. translators: %1$s: string
+#: assets/javascripts/hooks/useBlockAcfSchemaOptions.js:20
+#, javascript-format
+msgid "acf: %1$s"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:102 blocks/core/audio/src/edit.native.js:186
+msgid "Autoplay may cause usability issues for some users."
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:156 blocks/core/audio/src/edit.native.js:180
+#: blocks/core/image/src/edit.native.js:722 blocks/core/image/src/image.js:395
+#: blocks/statik/accordion-item/src/components/ui/InspectorControls.js:17
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:94
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:69
+#: blocks/statik/slider-slide/src/components/ui/InspectorControls.js:8
+#: blocks/statik/tab/src/components/ui/InspectorControls.js:25
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:87
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:91
+msgid "Settings"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:158 blocks/core/audio/src/edit.native.js:182
+msgid "Autoplay"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:164 blocks/core/audio/src/edit.native.js:190
+msgid "Loop"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:169 blocks/core/audio/src/edit.native.js:196
+msgctxt "noun; Audio block parameter"
+msgid "Preload"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:178 blocks/core/audio/src/edit.native.js:207
+msgid "Browser default"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:179 blocks/core/audio/src/edit.native.js:208
+#: blocks/core/button/src/edit.native.js:67
+msgid "Auto"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:180 blocks/core/audio/src/edit.native.js:209
+msgid "Metadata"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:183
+msgctxt "Preload value"
+msgid "None"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:205
+msgid "Audio caption text"
+msgstr ""
+
+#: blocks/core/audio/src/edit.js:206 blocks/core/embed/embed-preview.js:143
+#: blocks/core/image/src/image.js:628
+msgid "Add caption"
+msgstr ""
+
+#: blocks/core/audio/src/edit.native.js:80
+msgid "Invalid URL. Audio file not found."
+msgstr ""
+
+#: blocks/core/audio/src/edit.native.js:129
+msgid "Replace audio"
+msgstr ""
+
+#: blocks/core/audio/src/edit.native.js:212
+msgctxt "\"Preload\" value"
+msgid "None"
+msgstr ""
+
+#. translators: accessibility text. Empty Audio caption.
+#: blocks/core/audio/src/edit.native.js:233
+msgid "Audio caption. Empty"
+msgstr ""
+
+#. translators: accessibility text. %s: Audio caption.
+#: blocks/core/audio/src/edit.native.js:236
+#, javascript-format
+msgid "Audio caption. %s"
+msgstr ""
+
+#: blocks/core/button/src/edit.js:50 blocks/statik/video-button/src/edit.js:40
+msgid "Width settings"
+msgstr ""
+
+#: blocks/core/button/src/edit.js:51 blocks/core/button/src/edit.native.js:81
+#: blocks/statik/video-button/src/edit.js:41
+msgid "Button width"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:79
+msgid "Width Settings"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:166
+msgid "Remove link"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:173
+msgid "Button Link URL"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:174
+msgid "Add URL"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:179
+#: blocks/core/image/src/edit.native.js:146
+msgid "Open in new tab"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:182
+#: blocks/core/image/src/edit.native.js:149
+msgid "Link Rel"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:183
+#: blocks/core/image/src/edit.native.js:150
+msgctxt "Link rel attribute value placeholder"
+msgid "None"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:465
+msgid "Add text…"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:528
+#: blocks/core/embed/embed-placeholder.native.js:65
+msgid "Edit link"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:537
+msgid "Border Settings"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:539
+msgid "Border Radius"
+msgstr ""
+
+#: blocks/core/button/src/edit.native.js:556
+#: blocks/core/image/src/edit.native.js:155
+msgid "Link Settings"
+msgstr ""
+
+#: blocks/core/button/src/index.js:26
+#: blocks/statik/video-button/src/index.js:19
+msgid "Call to Action"
+msgstr ""
+
+#: blocks/core/buttons/src/index.js:28
+#: blocks/statik/video-buttons/src/index.js:20
+msgid "Find out more"
+msgstr ""
+
+#: blocks/core/buttons/src/index.js:32
+#: blocks/statik/video-buttons/src/index.js:24
+msgid "Contact us"
+msgstr ""
+
+#: blocks/core/code/src/edit.js:18 blocks/core/code/src/edit.native.js:47
+msgid "Write code…"
+msgstr ""
+
+#: blocks/core/code/src/edit.js:19 blocks/core/code/src/edit.native.js:48
+msgid "Code"
+msgstr ""
+
+#: blocks/core/code/src/index.js:28
+msgid ""
+"// A “block” is the abstract term used\n"
+"// to describe units of markup that\n"
+"// when composed together, form the\n"
+"// content or layout of a page.\n"
+"registerBlockType( name, settings );"
+msgstr ""
+
+#. translators: 1: Block label (i.e. "Block: Column"), 2: Position of the selected block, 3: Total number of sibling blocks of the same type
+#: blocks/core/column/src/edit.js:90
+#, javascript-format
+msgid "%1$s (%2$d of %3$d)"
+msgstr ""
+
+#: blocks/core/column/src/edit.js:116 blocks/core/column/src/edit.native.js:166
+msgid "Column settings"
+msgstr ""
+
+#: blocks/core/column/src/edit.js:118 blocks/core/column/src/edit.native.js:168
+msgid "Width"
+msgstr ""
+
+#: blocks/core/column/src/edit.native.js:199
+msgid "Note: Column layout may vary between themes and screen sizes"
+msgstr ""
+
+#: blocks/core/columns/src/edit.js:105
+msgid "Columns"
+msgstr ""
+
+#: blocks/core/columns/src/edit.js:114
+msgid ""
+"This column count exceeds the recommended amount and may cause visual "
+"breakage."
+msgstr ""
+
+#: blocks/core/columns/src/edit.js:119
+msgid "Stack on mobile"
+msgstr ""
+
+#. translators: %d: column index.
+#: blocks/core/columns/src/edit.native.js:195
+#, javascript-format
+msgid "Column %d"
+msgstr ""
+
+#: blocks/core/columns/src/index.js:37
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et eros eu "
+"felis."
+msgstr ""
+
+#: blocks/core/columns/src/index.js:52
+msgid "Suspendisse commodo neque lacus, a dictum orci interdum et."
+msgstr ""
+
+#: blocks/core/columns/src/index.js:66
+msgid ""
+"Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. "
+"Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam "
+"hendrerit."
+msgstr ""
+
+#: blocks/core/columns/src/index.js:75
+msgid ""
+"Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet "
+"ligula. Sed vel mauris nec enim."
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:17
+msgid "100"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:18
+msgid "One column"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:38
+msgid "50 / 50"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:39
+msgid "Two columns; equal split"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:60
+msgid "33 / 66"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:61
+msgid "Two columns; one-third, two-thirds split"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:84
+msgid "66 / 33"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:85
+msgid "Two columns; two-thirds, one-third split"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:108
+msgid "33 / 33 / 33"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:109
+msgid "Three columns; equal split"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:132
+msgid "25 / 50 / 25"
+msgstr ""
+
+#: blocks/core/columns/src/variations.js:133
+msgid "Three columns; wide center column"
+msgstr ""
+
+#: blocks/core/cover/build/index.js:1
+msgid "call .getColorAsync() without resource."
+msgstr ""
+
+#: blocks/core/cover/build/index.js:1
+msgid "resource as string is not supported in this environment"
+msgstr ""
+
+#: blocks/core/cover/build/index.js:1
+msgid "Error loading image \""
+msgstr ""
+
+#: blocks/core/cover/build/index.js:1
+msgid "Image \""
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:183
+#: blocks/core/cover/src/controls.native.js:244
+#: blocks/core/cover/src/edit.native.js:594
+#: blocks/core/cover/src/edit/inspector-controls.js:222
+#: blocks/statik/video/src/components/ui/InspectorControls.js:238
+msgid "Clear Media"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:237
+#: blocks/core/cover/src/edit/inspector-controls.js:153
+#: blocks/statik/video/src/components/ui/InspectorControls.js:187
+msgid "Fixed background"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:251
+#: blocks/core/cover/src/controls.native.js:252
+#: blocks/core/cover/src/edit.native.js:332
+msgid "Add image or video"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:263
+msgid "Media"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:283
+#: blocks/statik/video/src/components/ui/InspectorControls.js:173
+msgid "Opacity"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:294
+#: blocks/statik/video/src/components/ui/InspectorControls.js:127
+msgid "Dimensions"
+msgstr ""
+
+#: blocks/core/cover/src/controls.native.js:296
+#: blocks/core/cover/src/edit/inspector-controls.js:287
+msgid "Minimum height"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:85
+#: blocks/core/cover/src/edit/index.js:56
+msgid "Write title…"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:317
+msgid "Edit cover media"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:326
+msgid "Double tap to open Action Sheet to add image or video"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:327
+msgid "Double tap to open Bottom Sheet to add image or video"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:383
+msgid "Select a color"
+msgstr ""
+
+#: blocks/core/cover/src/edit.native.js:492
+#: blocks/core/cover/src/edit/cover-placeholder.js:25
+msgid "Cover"
+msgstr ""
+
+#: blocks/core/cover/src/edit/block-controls.js:65
+msgid "Change content position"
+msgstr ""
+
+#: blocks/core/cover/src/edit/block-controls.js:89
+msgid "Add Media"
+msgstr ""
+
+#: blocks/core/cover/src/edit/cover-placeholder.js:27
+msgid ""
+"Drag and drop onto this block, upload, or select existing media from your "
+"library."
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:76
+msgid "Minimum height of cover"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:149
+#: blocks/core/embed/embed-controls.js:48
+#: blocks/core/embed/embed-controls.native.js:40
+#: blocks/statik/video/src/components/ui/InspectorControls.js:185
+msgid "Media settings"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:159
+#: blocks/statik/video/src/components/ui/InspectorControls.js:192
+msgid "Repeated background"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:167
+#: blocks/statik/video/src/components/ui/InspectorControls.js:199
+msgid "Focal point picker"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:185
+#: blocks/core/image/src/image.js:398
+#: blocks/statik/video/src/components/ui/InspectorControls.js:211
+msgid "Alt text (alternative text)"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:195
+#: blocks/core/image/src/image.js:405
+#: blocks/statik/video/src/components/ui/InspectorControls.js:220
+msgid "Describe the purpose of the image"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:199
+#: blocks/core/image/src/image.js:409
+#: blocks/statik/video/src/components/ui/InspectorControls.js:225
+msgid "Leave empty if the image is purely decorative."
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:236
+#: blocks/core/cover/src/overlay-color-settings.native.js:99
+msgid "Overlay"
+msgstr ""
+
+#: blocks/core/cover/src/edit/inspector-controls.js:259
+#: blocks/core/cover/src/edit/inspector-controls.js:270
+msgid "Overlay opacity"
+msgstr ""
+
+#: blocks/core/cover/src/focal-point-settings-button.native.js:33
+msgid "Edit focal point"
+msgstr ""
+
+#: blocks/core/cover/src/index.js:34
+msgid "<strong>Snow Patrol</strong>"
+msgstr ""
+
+#: blocks/core/cover/src/overlay-color-settings.native.js:87
+#: blocks/core/separator/src/separator-settings.js:12
+#: blocks/core/separator/src/separator-settings.js:17
+msgid "Color"
+msgstr ""
+
+#: blocks/core/embed/edit.js:49 blocks/core/embed/edit.native.js:58
+msgctxt "block title"
+msgid "Embed"
+msgstr ""
+
+#. translators: %s: type of embed e.g: "YouTube", "Twitter", etc. "Embed" is used when no specific type exists
+#: blocks/core/embed/edit.js:179
+#, javascript-format
+msgid "%s URL"
+msgstr ""
+
+#. translators: %s: embed block variant's label e.g: "Twitter".
+#: blocks/core/embed/embed-bottom-sheet.native.js:22
+#: blocks/core/embed/embed-link-settings.native.js:31
+#, javascript-format
+msgid "%s link"
+msgstr ""
+
+#: blocks/core/embed/embed-bottom-sheet.native.js:25
+#: blocks/core/embed/embed-link-settings.native.js:34
+msgid "Add link"
+msgstr ""
+
+#: blocks/core/embed/embed-bottom-sheet.native.js:33
+#: blocks/core/embed/embed-link-settings.native.js:42
+#: blocks/core/embed/embed-placeholder.js:43
+msgid "https://wordpress.org/support/article/embeds/"
+msgstr ""
+
+#: blocks/core/embed/embed-bottom-sheet.native.js:35
+#: blocks/core/embed/embed-link-settings.native.js:44
+#: blocks/core/embed/embed-placeholder.js:46
+msgid "Learn more about embeds"
+msgstr ""
+
+#: blocks/core/embed/embed-bottom-sheet.native.js:48
+#: blocks/core/embed/embed-link-settings.native.js:53
+msgid "Invalid URL. Please enter a valid URL."
+msgstr ""
+
+#: blocks/core/embed/embed-controls.js:17
+#: blocks/core/embed/embed-controls.native.js:17
+msgid "This embed will preserve its aspect ratio when the browser is resized."
+msgstr ""
+
+#: blocks/core/embed/embed-controls.js:20
+#: blocks/core/embed/embed-controls.native.js:20
+msgid ""
+"This embed may not preserve its aspect ratio when the browser is resized."
+msgstr ""
+
+#: blocks/core/embed/embed-controls.js:38
+msgid "Edit URL"
+msgstr ""
+
+#: blocks/core/embed/embed-controls.js:52
+#: blocks/core/embed/embed-controls.native.js:42
+msgid "Resize for smaller devices"
+msgstr ""
+
+#: blocks/core/embed/embed-controls.native.js:49
+msgid "Link settings"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:77
+msgid "Double tap to preview page."
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:78
+msgid "Double tap to preview post."
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:80
+msgid "Preview page"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:80
+msgid "Preview post"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:86
+#, javascript-format
+msgid ""
+"We’re working hard on adding support for %s previews. In the meantime, you "
+"can preview the embedded content on the page."
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:93
+#, javascript-format
+msgid ""
+"We’re working hard on adding support for %s previews. In the meantime, you "
+"can preview the embedded content on the post."
+msgstr ""
+
+#. translators: %s: embed block variant's label e.g: "Twitter".
+#: blocks/core/embed/embed-no-preview.native.js:138
+#, javascript-format
+msgid "%s previews not yet available"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:146
+msgid "Tap here to show help"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:147
+msgid "Help button"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:178
+msgid "Embed block previews are coming soon"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:182
+#, javascript-format
+msgid "%s embed block previews are coming soon"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:201
+msgid "Dismiss"
+msgstr ""
+
+#: blocks/core/embed/embed-no-preview.native.js:218
+msgid "No preview available"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:24
+msgid "Paste a link to the content you want to display on your site."
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:33
+msgid "Enter URL to embed here…"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:37
+msgctxt "button label"
+msgid "Embed"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:52
+msgid "Sorry, this content could not be embedded."
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:55
+msgctxt "button label"
+msgid "Try again"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.js:58
+msgctxt "button label"
+msgid "Convert to link"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:53
+msgid "Retry"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:59
+msgid "Convert to link"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:97
+msgid "Double tap to view embed options."
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:98
+msgid "Double tap to add a link."
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:117
+msgid "Unable to embed media"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:120
+msgid "More options"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:123
+msgid "Embed options"
+msgstr ""
+
+#: blocks/core/embed/embed-placeholder.native.js:136
+msgid "ADD LINK"
+msgstr ""
+
+#. translators: %s: host providing embed content e.g: www.youtube.com
+#: blocks/core/embed/embed-preview.js:78
+#: blocks/core/embed/embed-preview.native.js:86
+#, javascript-format
+msgid "Embedded content from %s"
+msgstr ""
+
+#: blocks/core/embed/embed-preview.js:133
+#, javascript-format
+msgid "Embedded content from %s can't be previewed in the editor."
+msgstr ""
+
+#. translators: accessibility text. Empty Embed caption.
+#: blocks/core/embed/embed-preview.native.js:57
+msgid "Embed caption. Empty"
+msgstr ""
+
+#. translators: accessibility text. %s: Embed caption.
+#: blocks/core/embed/embed-preview.native.js:60
+#, javascript-format
+msgid "Embed caption. %s"
+msgstr ""
+
+#: blocks/core/embed/variations.js:43 blocks/core/embed/variations.js:66
+#: blocks/core/embed/variations.js:82 blocks/core/embed/variations.js:300
+#: blocks/core/embed/variations.js:338
+msgid "social"
+msgstr ""
+
+#: blocks/core/embed/variations.js:44
+msgid "Embed a tweet."
+msgstr ""
+
+#: blocks/core/embed/variations.js:52 blocks/core/embed/variations.js:102
+#: blocks/core/embed/variations.js:111 blocks/core/embed/variations.js:214
+msgid "music"
+msgstr ""
+
+#: blocks/core/embed/variations.js:52 blocks/core/embed/variations.js:132
+#: blocks/core/embed/variations.js:178 blocks/core/embed/variations.js:283
+#: blocks/core/embed/variations.js:309
+msgid "video"
+msgstr ""
+
+#: blocks/core/embed/variations.js:53
+msgid "Embed a YouTube video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:67
+msgid "Embed a Facebook post."
+msgstr ""
+
+#: blocks/core/embed/variations.js:82 blocks/core/embed/variations.js:120
+msgid "image"
+msgstr ""
+
+#: blocks/core/embed/variations.js:83
+msgid "Embed an Instagram post."
+msgstr ""
+
+#: blocks/core/embed/variations.js:92
+msgid "post"
+msgstr ""
+
+#: blocks/core/embed/variations.js:92
+msgid "blog"
+msgstr ""
+
+#: blocks/core/embed/variations.js:93
+msgid "Embed a WordPress post."
+msgstr ""
+
+#: blocks/core/embed/variations.js:102 blocks/core/embed/variations.js:111
+#: blocks/core/embed/variations.js:214
+msgid "audio"
+msgstr ""
+
+#: blocks/core/embed/variations.js:103
+msgid "Embed SoundCloud content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:112
+msgid "Embed Spotify content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:121
+msgid "Embed Flickr content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:133
+msgid "Embed a Vimeo video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:141
+msgid "Embed an Animoto video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:149
+msgid "Embed Cloudup content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:158
+msgid "Embed CollegeHumor content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:167
+msgid "survey"
+msgstr ""
+
+#: blocks/core/embed/variations.js:168
+msgid "Embed Crowdsignal (formerly Polldaddy) content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:179
+msgid "Embed a Dailymotion video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:187
+msgid "Embed Imgur content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:195
+msgid "Embed Issuu content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:203
+msgid "Embed Kickstarter content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:215
+msgid "Embed Mixcloud content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:223
+msgid "Embed a Reddit thread."
+msgstr ""
+
+#: blocks/core/embed/variations.js:231
+msgid "Embed ReverbNation content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:239
+msgid "Embed Screencast content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:247
+msgid "Embed Scribd content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:255
+msgid "Embed Slideshare content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:263
+msgid "Embed SmugMug content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:275
+msgid "Embed Speaker Deck content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:284
+msgid "Embed a TikTok video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:292
+msgid "Embed a TED video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:301
+msgid "Embed a Tumblr post."
+msgstr ""
+
+#: blocks/core/embed/variations.js:310
+msgid "Embed a VideoPress video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:318
+msgid "Embed a WordPress.tv video."
+msgstr ""
+
+#: blocks/core/embed/variations.js:326
+msgid "ebook"
+msgstr ""
+
+#: blocks/core/embed/variations.js:327
+msgid "Embed Amazon Kindle content."
+msgstr ""
+
+#: blocks/core/embed/variations.js:338
+msgid "bookmark"
+msgstr ""
+
+#: blocks/core/embed/variations.js:339
+msgid "Embed Pinterest pins, boards, and profiles."
+msgstr ""
+
+#: blocks/core/embed/variations.js:349
+msgid "Embed Wolfram Cloud notebook content."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:21
+msgid ""
+"The <header> element should represent introductory content, typically a "
+"group of introductory or navigational aids."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:24
+msgid ""
+"The <main> element should be used for the primary content of your document "
+"only. "
+msgstr ""
+
+#: blocks/core/group/src/edit.js:27
+msgid ""
+"The <section> element should represent a standalone portion of the document "
+"that can't be better represented by another element."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:30
+msgid ""
+"The <article> element should represent a self contained, syndicatable "
+"portion of the document."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:33
+msgid ""
+"The <aside> element should represent a portion of a document whose content "
+"is only indirectly related to the document's main content."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:36
+msgid ""
+"The <footer> element should represent a footer for its nearest sectioning "
+"element (e.g.: <section>, <article>, <main> etc.)."
+msgstr ""
+
+#: blocks/core/group/src/edit.js:80
+msgid "HTML element"
+msgstr ""
+
+#: blocks/core/group/src/edit.js:82
+msgid "Default (<div>)"
+msgstr ""
+
+#: blocks/core/group/src/index.js:41
+msgid "One."
+msgstr ""
+
+#: blocks/core/group/src/index.js:49
+msgid "Two."
+msgstr ""
+
+#: blocks/core/group/src/index.js:57
+msgid "Three."
+msgstr ""
+
+#: blocks/core/group/src/index.js:65
+msgid "Four."
+msgstr ""
+
+#: blocks/core/group/src/index.js:73
+msgid "Five."
+msgstr ""
+
+#: blocks/core/group/src/index.js:81
+msgid "Six."
+msgstr ""
+
+#: blocks/core/group/src/variations.js:10
+msgid "Group"
+msgstr ""
+
+#: blocks/core/group/src/variations.js:11
+msgid "Gather blocks in a container."
+msgstr ""
+
+#: blocks/core/group/src/variations.js:24
+msgctxt "single horizontal line"
+msgid "Row"
+msgstr ""
+
+#: blocks/core/group/src/variations.js:25
+msgid "Arrange blocks horizontally."
+msgstr ""
+
+#: blocks/core/group/src/variations.js:36
+msgid "Stack"
+msgstr ""
+
+#: blocks/core/group/src/variations.js:37
+msgid "Arrange blocks vertically."
+msgstr ""
+
+#: blocks/core/heading/src/edit.js:136
+msgid "Heading text"
+msgstr ""
+
+#: blocks/core/heading/src/edit.js:137
+msgid "Heading"
+msgstr ""
+
+#: blocks/core/heading/src/heading-level-dropdown.js:42
+#: blocks/core/heading/src/heading-level-dropdown.native.js:60
+msgid "Change heading level"
+msgstr ""
+
+#. translators: %s: heading level e.g: "1", "2", "3"
+#: blocks/core/heading/src/heading-level-dropdown.js:56
+#: blocks/core/heading/src/heading-level-dropdown.native.js:48
+#, javascript-format
+msgid "Heading %d"
+msgstr ""
+
+#: blocks/core/heading/src/index.js:31
+msgid "Code is Poetry"
+msgstr ""
+
+#. translators: accessibility text. %s: heading level.
+#: blocks/core/heading/src/index.js:48
+#, javascript-format
+msgid "Level %s. Empty."
+msgstr ""
+
+#. translators: accessibility text. 1: heading level. 2: heading content.
+#: blocks/core/heading/src/index.js:53
+#, javascript-format
+msgid "Level %1$s. %2$s"
+msgstr ""
+
+#: blocks/core/html/src/edit.js:47
+msgid "Preview"
+msgstr ""
+
+#: blocks/core/html/src/edit.js:60
+msgid "Write HTML…"
+msgstr ""
+
+#: blocks/core/html/src/edit.js:61
+msgid "HTML"
+msgstr ""
+
+#: blocks/core/html/src/index.js:26
+msgid "Welcome to the wonderful world of blocks…"
+msgstr ""
+
+#: blocks/core/image/src/edit.js:42
+msgid "Image"
+msgstr ""
+
+#: blocks/core/image/src/edit.js:44
+msgid ""
+"Upload an image file, pick one from your media library, or add one with a "
+"URL."
+msgstr ""
+
+#: blocks/core/image/src/edit.js:324 blocks/core/image/src/edit.js:325
+#: blocks/core/image/src/edit.native.js:708
+msgid "Edit image"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:126
+msgid "Media File"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:129
+msgid "Attachment Page"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:132
+msgid "Custom URL"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:135
+#: blocks/statik/post-type-cards/src/components/ui/Placeholder.js:22
+#: blocks/statik/post-type-table/src/components/ui/Placeholder.js:22
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:186
+#: blocks/statik/video/src/components/ui/InspectorControls.js:247
+msgid "None"
+msgstr ""
+
+#. translators: accessibility text. %s: image caption.
+#: blocks/core/image/src/edit.native.js:326
+#, javascript-format
+msgid "Image caption. %s"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:493
+msgid "Image file not found."
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:500
+msgid "Invalid URL."
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:574
+msgid "Add alt text"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:575
+msgid "Alt Text"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:580
+msgid ""
+"Describe the purpose of the image. Leave empty if the image is purely "
+"decorative."
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:586
+msgid "What is alt text?"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:614
+msgid "Remove as Featured Image"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:629
+msgid "Set as Featured Image"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:730
+msgid "Size"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:745
+msgid "Featured Image"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:752
+msgid ""
+"Changes to featured image will not be affected by the undo/redo buttons."
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:801
+msgid "Featured"
+msgstr ""
+
+#: blocks/core/image/src/edit.native.js:803
+msgid "GIF"
+msgstr ""
+
+#: blocks/core/image/src/image.js:285
+msgid "Image uploaded."
+msgstr ""
+
+#: blocks/core/image/src/image.js:344
+msgid "Caption"
+msgstr ""
+
+#: blocks/core/image/src/image.js:363
+msgid "Crop"
+msgstr ""
+
+#: blocks/core/image/src/image.js:370
+msgid "Upload external image"
+msgstr ""
+
+#: blocks/core/image/src/image.js:376
+msgid "Add text over image"
+msgstr ""
+
+#: blocks/core/image/src/image.js:430
+msgid "Title attribute"
+msgstr ""
+
+#: blocks/core/image/src/image.js:436
+msgid "Describe the role of this image on the page."
+msgstr ""
+
+#: blocks/core/image/src/image.js:440
+msgid "(Note: many devices and browsers do not display this text.)"
+msgstr ""
+
+#. translators: %s: file name
+#: blocks/core/image/src/image.js:458
+#, javascript-format
+msgid "This image has an empty alt attribute; its file name is %s"
+msgstr ""
+
+#: blocks/core/image/src/image.js:462
+msgid "This image has an empty alt attribute"
+msgstr ""
+
+#: blocks/core/image/src/image.js:627
+msgid "Image caption text"
+msgstr ""
+
+#. translators: Caption accompanying an image of the Mont Blanc, which serves as an example for the Image block.
+#: blocks/core/image/src/index.js:29
+msgid "Mont Blanc appears—still, snowy, and serene."
+msgstr ""
+
+#: blocks/core/image/src/index.js:37 blocks/core/paragraph/src/index.js:45
+msgid "Empty"
+msgstr ""
+
+#: blocks/core/image/src/transforms.js:147
+msgid "If uploading to a gallery all files need to be image formats"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:117
+#: blocks/core/list-block/src/v2/edit.js:120
+#: blocks/core/list-item/src/edit.js:42
+msgid "Outdent"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:118
+#: blocks/core/list-block/src/v2/edit.js:121
+#: blocks/core/list-item/src/edit.js:43
+msgid "Outdent list item"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:148
+#: blocks/core/list-block/src/v2/edit.js:144
+msgid "Unordered"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:149
+#: blocks/core/list-block/src/v2/edit.js:145
+msgid "Convert to unordered list"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:157
+#: blocks/core/list-block/src/v2/edit.js:153
+msgid "Ordered"
+msgstr ""
+
+#: blocks/core/list-block/src/edit.js:158
+#: blocks/core/list-block/src/v2/edit.js:154
+msgid "Convert to ordered list"
+msgstr ""
+
+#: blocks/core/list-block/src/index.js:28
+msgid "Alice."
+msgstr ""
+
+#: blocks/core/list-block/src/index.js:32
+msgid "The White Rabbit."
+msgstr ""
+
+#: blocks/core/list-block/src/index.js:36
+msgid "The Cheshire Cat."
+msgstr ""
+
+#: blocks/core/list-block/src/index.js:40
+msgid "The Mad Hatter."
+msgstr ""
+
+#: blocks/core/list-block/src/index.js:44
+msgid "The Queen of Hearts."
+msgstr ""
+
+#: blocks/core/list-block/src/ordered-list-settings.js:10
+msgid "Ordered list settings"
+msgstr ""
+
+#: blocks/core/list-block/src/ordered-list-settings.js:12
+msgid "Start value"
+msgstr ""
+
+#: blocks/core/list-block/src/ordered-list-settings.js:27
+msgid "Reverse list numbering"
+msgstr ""
+
+#: blocks/core/list-item/src/edit.js:49
+msgid "Indent"
+msgstr ""
+
+#: blocks/core/list-item/src/edit.js:50
+msgid "Indent list item"
+msgstr ""
+
+#: blocks/core/list-item/src/edit.js:85
+msgid "List text"
+msgstr ""
+
+#: blocks/core/list-item/src/edit.js:86
+#: blocks/core/list-item/src/edit.native.js:175
+msgid "List"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:39
+msgctxt "editor button"
+msgid "Left to right"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:74
+msgid "Not available for aligned text."
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:76
+msgid "Showing large initial letter."
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:78
+msgid "Toggle to show a large initial letter."
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:106 blocks/core/paragraph/src/edit.js:114
+msgid "Drop cap"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:158
+msgid "Paragraph block"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:160
+msgid "Empty block; start writing or type forward slash to choose a block"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.js:164
+msgid "Type / to choose a block"
+msgstr ""
+
+#: blocks/core/paragraph/src/edit.native.js:96
+msgid "Start writing…"
+msgstr ""
+
+#: blocks/core/paragraph/src/index.js:32
+msgid ""
+"In a village of La Mancha, the name of which I have no desire to call to "
+"mind, there lived not long since one of those gentlemen that keep a lance in "
+"the lance-rack, an old buckler, a lean hack, and a greyhound for coursing."
+msgstr ""
+
+#: blocks/core/pullquote/src/edit.js:63
+#: blocks/core/pullquote/src/edit.native.js:92
+msgid "Pullquote text"
+msgstr ""
+
+#. translators: placeholder text used for the quote
+#: blocks/core/pullquote/src/edit.js:66
+#: blocks/core/pullquote/src/edit.native.js:95
+msgid "Add quote"
+msgstr ""
+
+#: blocks/core/pullquote/src/edit.js:76
+#: blocks/core/pullquote/src/edit.native.js:103
+msgid "Pullquote citation text"
+msgstr ""
+
+#. translators: placeholder text used for the citation
+#. translators: placeholder text used for the
+#. citation
+#: blocks/core/pullquote/src/edit.js:79
+#: blocks/core/pullquote/src/edit.native.js:106
+#: blocks/core/quote/src/edit.js:127
+msgid "Add citation"
+msgstr ""
+
+#: blocks/core/pullquote/src/index.js:29
+msgid "One of the hardest things to do in technology is disrupt yourself."
+msgstr ""
+
+#: blocks/core/pullquote/src/index.js:31
+msgid "Matt Mullenweg"
+msgstr ""
+
+#: blocks/core/quote/src/edit.js:123
+msgid "Quote citation"
+msgstr ""
+
+#: blocks/core/quote/src/index.js:32
+msgid "In quoting others, we cite ourselves."
+msgstr ""
+
+#: blocks/core/table/src/edit.js:63
+msgid "Align column left"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:68
+msgid "Align column center"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:73
+msgid "Align column right"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:79
+msgid "Header cell text"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:80
+msgid "Body cell text"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:81
+msgid "Footer cell text"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:85
+msgid "Header label"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:86
+msgid "Footer label"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:364
+msgid "Insert row before"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:370
+msgid "Insert row after"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:376
+msgid "Delete row"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:382
+msgid "Insert column before"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:388
+msgid "Insert column after"
+msgstr ""
+
+#: blocks/core/table/src/edit.js:394
+msgid "Delete column"
+msgstr ""
+
+#: blocks/core/table/src/index.js:30
+msgid "Version"
+msgstr ""
+
+#: blocks/core/table/src/index.js:34
+msgid "Jazz Musician"
+msgstr ""
+
+#: blocks/core/table/src/index.js:38
+msgid "Release Date"
+msgstr ""
+
+#: blocks/core/table/src/index.js:56
+msgid "May 7, 2019"
+msgstr ""
+
+#: blocks/core/table/src/index.js:72
+msgid "February 21, 2019"
+msgstr ""
+
+#: blocks/core/table/src/index.js:88
+msgid "December 6, 2018"
+msgstr ""
+
+#: blocks/statik/accordion-item/src/components/HeaderTitle.js:32
+msgid "Write accordion item title…"
+msgstr ""
+
+#: blocks/statik/accordion-item/src/components/ui/InspectorControls.js:20
+msgid "Display expanded by default"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InnerBlocksControls.js:58
+msgid "Select item"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InnerBlocksControls.js:72
+msgid "Add new item"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InnerBlocksControls.js:77
+msgid "Delete item"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:86
+msgid "Accordion settings"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:88
+msgid "Display toggle Icons"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:94
+msgid "Allow one item expanded at the time"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:102
+msgid "Header Settings"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:106
+msgid "Header selector"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:112
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:135
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:143
+#: blocks/statik/video/src/components/ui/InspectorControls.js:164
+msgid "Background color"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:121
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:144
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:123
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:152
+msgid "Text color"
+msgstr ""
+
+#: blocks/statik/accordion/src/components/ui/InspectorControls.js:131
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:141
+msgid "Content Settings"
+msgstr ""
+
+#: blocks/statik/google-map/GoogleMap.php:23
+msgid "Google API token"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/map-styles/dark.js:7
+msgid "Dark"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/map-styles/default.js:7
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:229
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:145
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:212
+msgid "Default"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/map-styles/light.js:7
+msgid "Light"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/map-styles/night.js:7
+msgid "Night"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:32
+msgid "Map style"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:37
+msgid "Google map settings"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:40
+msgid "Height of a Map"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:41
+#: blocks/statik/spacer/src/components/ui/InspectorControls.js:45
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:108
+msgid "inherit"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:51
+msgid "Marker"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/InspectorControls.js:52
+msgid "Show Marker"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/Placeholder.js:19
+msgid "Display a map that is either interactive or static."
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/Placeholder.js:22
+msgid "Google Maps URL"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/Placeholder.js:26
+msgid "Google Map URL"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/Placeholder.js:29
+msgid "www.google.com/maps/…"
+msgstr ""
+
+#: blocks/statik/google-map/src/components/ui/Placeholder.js:32
+#: blocks/statik/google-map/src/hooks/useSetMapAttributes.js:19
+msgid "Please enter correct URL"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/BlockControls.js:40
+msgid "Replace icon"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/IconsCollection.js:95
+msgid "Filter icons…"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:51
+msgid "Icon color"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:60
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:105
+msgid "Accent color"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:69
+msgid "Icon settings"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:72
+msgid "Height of an icon"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:85
+msgid "Icon wrapper spacing"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:100
+msgid "Icon outline"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/InspectorControls.js:113
+msgid "Color settings"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/Placeholder.js:23
+msgid "Icon"
+msgstr ""
+
+#: blocks/statik/icon/src/components/ui/Placeholder.js:25
+msgid "Insert an icon to draw attention of your visitors."
+msgstr ""
+
+#: blocks/statik/icons/src/variations.js:7
+msgid "Horizontal"
+msgstr ""
+
+#: blocks/statik/icons/src/variations.js:8
+msgid "Buttons shown in a row."
+msgstr ""
+
+#: blocks/statik/icons/src/variations.js:14
+msgid "Vertical"
+msgstr ""
+
+#: blocks/statik/icons/src/variations.js:15
+msgid "Buttons shown in a column."
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/Card.js:131
+#: blocks/statik/post-type-table/src/components/TableRow.js:77
+#: blocks/statik/video-cards/src/components/Card.js:108
+msgid "Read More"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/PostTypeCards.js:31
+#: blocks/statik/post-type-table/src/components/PostTypeTable.js:32
+#: blocks/statik/team-member-cards/src/components/TeamMemberCards.js:35
+#: blocks/statik/video-cards/src/components/VideoCards.js:31
+msgid "Could not find any entities."
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/BlockControls.js:7
+#: blocks/statik/post-type-table/src/components/ui/BlockControls.js:7
+msgid "Reset Post Type Selection"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:96
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:71
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:90
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:93
+msgid "Number of Cards to display"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:110
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:106
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:107
+msgid "Number of Cards to display in a row"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:129
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:79
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:124
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:126
+msgid "Layout"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:133
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:129
+msgid "Display Featured Images"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:145
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:81
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:136
+msgid "Display Entity Title"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:155
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:142
+msgid "Display Entity Excerpt"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:165
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:86
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:149
+msgid "Display Categories"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:174
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:91
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:154
+msgid "Display Tags"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:181
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:97
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:160
+msgid "Display Last Updated Date"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:189
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:105
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:163
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:168
+msgid "Display Read More Button"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:196
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:112
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:170
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:180
+#: blocks/statik/video/src/components/ui/InspectorControls.js:243
+msgid "Follow-up action"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:198
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:114
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:172
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:182
+msgid "Follow-up area"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:202
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:118
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:176
+msgid "No follow-up"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:207
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:181
+msgid "Card area is clickable"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:214
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:130
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:188
+msgid "Read More button is clickable"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:225
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:141
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:208
+msgid "Destination"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/InspectorControls.js:235
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:151
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:218
+msgid "No acf fields of url type associated with selected post type"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/Placeholder.js:36
+#: blocks/statik/post-type-table/src/components/ui/Placeholder.js:36
+msgid "Post Type Cards"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/Placeholder.js:38
+#: blocks/statik/post-type-table/src/components/ui/Placeholder.js:38
+msgid "Present WordPress entities as a cards"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/Placeholder.js:44
+#: blocks/statik/post-type-table/src/components/ui/Placeholder.js:44
+msgid "Post Type"
+msgstr ""
+
+#: blocks/statik/post-type-cards/src/components/ui/Placeholder.js:47
+#: blocks/statik/post-type-table/src/components/ui/Placeholder.js:47
+msgid "Select Post Type to display"
+msgstr ""
+
+#: blocks/statik/post-type-table/src/components/ui/InspectorControls.js:123
+msgid "Row area is clickable"
+msgstr ""
+
+#: blocks/statik/slider-slide/src/components/ui/InspectorControls.js:11
+msgid ""
+"Settings are not available for a single slide. Please select “Slider” block "
+"out of a breadcrumb navigation located at the bottom section of Gutenberg."
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InnerBlocksControls.js:70
+msgid "Slide index"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:40
+msgid "Slider settings"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:42
+msgid "Pre-selected Slide"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:48
+msgid "Display navigation dots"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:55
+msgid "Display navigation arrows"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:65
+msgid "Start carousel automatically"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:73
+msgid "Loop carousel indefinitely"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:81
+msgid "Adjust carousel height to fit slides"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:90
+msgid "Interval"
+msgstr ""
+
+#: blocks/statik/slider/src/components/ui/InspectorControls.js:94
+msgid "ms"
+msgstr ""
+
+#: blocks/statik/spacer/src/components/ui/InspectorControls.js:27
+msgid "Spacer settings"
+msgstr ""
+
+#: blocks/statik/spacer/src/components/ui/InspectorControls.js:35
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:98
+msgid "Vertical spacing"
+msgstr ""
+
+#: blocks/statik/tab/src/components/TabsNavItem.js:65
+#: blocks/statik/tab/src/components/TabsNavItem.js:87
+msgid "Tab name…"
+msgstr ""
+
+#: blocks/statik/tab/src/components/TabsNavItem.js:74
+#: blocks/statik/tab/src/components/TabsNavItem.js:98
+msgid "Tab description…"
+msgstr ""
+
+#: blocks/statik/tab/src/components/ui/InnerBlocksControls.js:64
+msgid "Tab index"
+msgstr ""
+
+#: blocks/statik/tab/src/components/ui/InspectorControls.js:28
+msgid ""
+"Settings are not available for a single tab. Please select “Tabs” block out "
+"of a breadcrumb navigation located at the bottom section of Gutenberg."
+msgstr ""
+
+#: blocks/statik/tab/src/components/ui/InspectorControls.js:39
+msgid "Additional Tab CSS class(es)"
+msgstr ""
+
+#: blocks/statik/tab/src/components/ui/InspectorControls.js:44
+msgid "Separate multiple classes with spaces."
+msgstr ""
+
+#: blocks/statik/tabs/build/index.js:1
+msgid "wp-block-statik-tabs__nav-list-item"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InnerBlocksControls.js:52
+msgid "Select Tab"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InnerBlocksControls.js:66
+msgid "Add new Tab"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InnerBlocksControls.js:71
+msgid "Delete Tab"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:38
+msgid "Left"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:39
+msgid "Center"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:40
+msgid "Right"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:82
+msgid "Tabs Selector"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:89
+msgid "Pre-selected Tab"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:95
+msgid "Selector alignment"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:102
+msgid "Tabs Selector Settings"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:114
+msgid "Active accent color"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/InspectorControls.js:132
+msgid "Active text color"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/NoTabsWarning.js:30
+msgid "Remove block"
+msgstr ""
+
+#: blocks/statik/tabs/src/components/ui/NoTabsWarning.js:35
+msgid "\"Tabs\" block requires at least one \"Tab\" inner block."
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:126
+msgid "Display Image"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:131
+msgid "Display Name"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:137
+msgid "Display short description"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:147
+msgid "Display long description"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:155
+msgid "Display \"Social Media\" section"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:200
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:231
+#: blocks/statik/video/src/components/ui/InspectorControls.js:245
+msgid "Follow-up behavior"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:206
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:237
+msgid "Redirect"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:211
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:242
+#: blocks/statik/video/src/components/ui/InspectorControls.js:250
+msgid "Display in a modal"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:222
+msgid "Modal content"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:226
+msgid "Content"
+msgstr ""
+
+#: blocks/statik/team-member-cards/src/components/ui/InspectorControls.js:231
+msgid "From the person's URI"
+msgstr ""
+
+#: blocks/statik/timeline-item/src/edit.js:79
+msgid "Section label…"
+msgstr ""
+
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:57
+msgid "Universal Block settings"
+msgstr ""
+
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:60
+msgid "Select block type"
+msgstr ""
+
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:68
+msgid "Select block type…"
+msgstr ""
+
+#: blocks/statik/universal-block/src/components/ui/InspectorControls.js:84
+msgid "Select block…"
+msgstr ""
+
+#. translators: %1$s: string
+#: blocks/statik/video-cards/build/index.js:4
+msgid "cardsPerRow"
+msgstr ""
+
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:175
+msgid "Display \"Play\" Icon"
+msgstr ""
+
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:191
+msgid "Post area is clickable"
+msgstr ""
+
+#: blocks/statik/video-cards/src/components/ui/InspectorControls.js:198
+msgid "Only Read More button is clickable"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/InspectorControls.js:131
+msgid "Height of a video block"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/InspectorControls.js:144
+msgid "Width of a video block"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/InspectorControls.js:155
+msgid "Overlay Settings"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/InspectorControls.js:157
+msgid "Display Overlay"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/InspectorControls.js:255
+msgid "Redirect to the video"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/Placeholder.js:29
+msgid "Embed a video uploaded to either Youtube or Vimeo."
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/Placeholder.js:32
+msgid "Video"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/Placeholder.js:36
+msgid "Youtube or Vimeo URL"
+msgstr ""
+
+#: blocks/statik/video/src/components/ui/Placeholder.js:40
+msgid "https://youtube.com/watch?v=…"
+msgstr ""
+
+#: src/Block/Blocks.php:76 src/Block/Blocks.php:86
+msgid "Blocks elements are read only and cannot be modified"
+msgstr ""
+
+#: src/BlockType/AbstractBlockType.php:45
+msgid "Missing 'blocks.json' file"
+msgstr ""
+
+#: src/BlockType/AbstractBlockType.php:52
+msgid "Invalid 'block.json' file"
+msgstr ""
+
+#: src/BlockType/AbstractBlockType.php:286
+msgid "settings"
+msgstr ""
+
+#: src/BlocksManager.php:69
+msgid "Block type register error"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:68
+msgid "Your settings have not been updated. Please try again!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:84
+msgid "Your settings have been updated."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:53
+msgid "General settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:57
+msgid "Core blocks overridden"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:59
+msgid ""
+"Use Core blocks overridden by Statik Blocks plugins rather than Gutenberg "
+"ones. This settings can be changed only by <code>STATIK_BLOCKS_DISABLE_CORE</"
+"code> constant."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:69
+msgid "Statik blocks save code execution"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:71
+msgid ""
+"Whether <code>save.js</code> code should be executed when save Gutenberg."
+msgstr ""
+
+#: src/Plugin.php:70
+msgid "The plugin requires at least PHP 8.0"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Statik Gutenberg Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://statik.space/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Statik plugin for manage Gutenberg Blocks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Statik LTD"
+msgstr ""

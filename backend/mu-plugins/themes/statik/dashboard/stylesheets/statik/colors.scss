@@ -1,0 +1,37 @@
+$base-color: #1d2327;
+$highlight-color: darken(#30d993, 10%);
+$notification-color: darken($highlight-color, 5%);
+$low-contrast-theme: "false";
+
+$menu-submenu-focus-text: #72aee6;
+$link: #0073aa;
+$text-color: #f0f0f1;
+
+@import "../../../../../../../../../../.wordpress/wp-admin/css/colors/admin";
+
+body.admin-color-fresh {
+  --wp-admin-theme-color: #{$highlight-color};
+  --wp-admin-theme-color-darker-10: #{darken($highlight-color, 10%)};
+  --wp-admin-theme-color-darker-20: #{darken($highlight-color, 20%)};
+  --wp-admin-border-width-focus: 2px;
+}
+
+.wp-core-ui {
+  select {
+    font-size: inherit;
+
+    &.focus, &:focus {
+      border-color: $highlight-color;
+      box-shadow: 0 0 0 1px $highlight-color;
+      color: darken($link, 5%);
+    }
+
+    &:not([disabled]):hover {
+      color: darken($link, 5%);
+    }
+  }
+}
+
+#wpadminbar #wp-toolbar > ul {
+  background: $base-color;
+}

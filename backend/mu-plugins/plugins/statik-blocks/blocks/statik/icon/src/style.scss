@@ -1,0 +1,47 @@
+.wp-block-statik-icon {
+
+  //
+  // Style
+  //
+  &.is-style-default .wp-block-statik-icon__icon {}
+
+  &.is-style-outline .wp-block-statik-icon__icon {
+    border-radius: 50%;
+    border-style: solid;
+  }
+
+  &.is-style-rectangular .wp-block-statik-icon__icon {
+    border-radius: 0;
+  }
+
+  &.is-style-circular .wp-block-statik-icon__icon {
+    border-radius: 50%;
+  }
+
+  //
+  // Align
+  //
+  &.has-block-align-left .wp-block-statik-icon__icon {
+    margin-right: auto;
+  }
+
+  &.has-block-align-center .wp-block-statik-icon__icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.has-block-align-right .wp-block-statik-icon__icon {
+    margin-left: auto;
+  }
+}
+
+.wp-block-statik-icon__icon {
+  height: 100%;
+  box-sizing: content-box !important;
+  color: #000000;
+
+  svg {
+    height: 100%;
+    width: auto;
+  }
+}

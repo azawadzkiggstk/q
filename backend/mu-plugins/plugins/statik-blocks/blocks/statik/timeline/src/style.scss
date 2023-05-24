@@ -1,0 +1,13 @@
+.wp-block-statik-timeline {
+  position: relative;
+}
+
+.wp-block-statik-timeline__vertical-bar {
+  position: absolute;
+  left:50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  background-color: red;
+}

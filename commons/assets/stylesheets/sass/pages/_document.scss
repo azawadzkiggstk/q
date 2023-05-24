@@ -1,0 +1,8 @@
+.document {
+  @extend %page;
+  margin-bottom: 1rem;
+}
+
+.document__download {
+  @extend %button;
+}

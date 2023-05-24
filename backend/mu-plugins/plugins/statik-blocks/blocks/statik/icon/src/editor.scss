@@ -1,0 +1,13 @@
+.wp-block-statik-icon__placeholder {
+  min-width: 140px;
+}
+
+.wp-block-statik-icon__icon-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    fill: none;
+  }
+}

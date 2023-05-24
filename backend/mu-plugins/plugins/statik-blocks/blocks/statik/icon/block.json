@@ -1,0 +1,86 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/icon",
+	"version": "4.13.0",
+	"title": "Icon",
+	"category": "common",
+	"description": "Insert an icon to draw attention of your visitors.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "center"
+		},
+		"icon": {
+			"type": "string"
+		},
+		"alt": {
+			"type": "string"
+		},
+		"id": {
+			"type": "number"
+		},
+		"iconUrl": {
+			"type": "string"
+		},
+		"iconSize": {
+			"type": "string",
+			"default": "120px"
+		},
+		"iconSpacing": {
+			"type": "string",
+			"default": "25px"
+		},
+		"iconBorder": {
+			"type": "string",
+			"default": "10px"
+		},
+		"iconColor": {
+			"type": "string",
+			"default": "#222222"
+		},
+		"accentColor": {
+			"type": "string",
+			"default": "#FF8085"
+		},
+		"style": {
+			"type": "object"
+		}
+	},
+	"example": {
+		"attributes": {
+			"icon": "blocks",
+			"className": "is-style-circular",
+			"iconSpacing": "60px",
+			"iconSize": "250px",
+			"iconBorder": "20px"
+		}
+	},
+	"styles": [
+		{
+			"name": "default",
+			"label": "Default",
+			"isDefault": true
+		},
+		{
+			"name": "rectangular",
+			"label": "Rectangular"
+		},
+		{
+			"name": "circular",
+			"label": "Circular"
+		},
+		{
+			"name": "outline",
+			"label": "Outline"
+		}
+	],
+	"supports": {
+		"color": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

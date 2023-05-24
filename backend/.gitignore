@@ -1,0 +1,17 @@
+# WordPress
+/plugins/akismet
+/plugins/hello.php
+/themes/twenty*
+/upgrade
+/uploads
+/languages
+
+# PHP CS Fixer
+.php-cs-fixer.cache
+
+#Cypress
+/tests/.*
+/tests/videos/*
+!/tests/videos/.gitkeep
+/tests/screenshots/*
+!/tests/screenshots/.gitkeep

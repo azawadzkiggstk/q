@@ -1,0 +1,32 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/slider-slide",
+	"version": "4.13.0",
+	"title": "Slide",
+	"parent": [ "statik/slider" ],
+	"category": "layout",
+	"description": "A child item of a Slider Block.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"isPreSelected": {
+			"type": "boolean",
+			"default": false
+		},
+		"slideIndex": {
+			"type": "number"
+		},
+		"slidesCount": {
+			"type": "number"
+		}
+	},
+	"supports": {
+		"inserter": false,
+		"reusable": false,
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,7 @@
+.wp-block-statik-accordion {}
+
+.wp-block-statik-accordion--no-toggle-icons > .wp-block-statik-accordion__inner-blocks > .wp-block-statik-accordion-item > .wp-block-statik-accordion-item__header {
+  .wp-block-statik-accordion-item__icon {
+    display: none;
+  }
+}

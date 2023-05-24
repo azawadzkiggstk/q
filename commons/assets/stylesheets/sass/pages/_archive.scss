@@ -1,0 +1,129 @@
+$post-width: 900px;
+$post-width--full: 1920px;
+$share-box--width: 130px;
+
+.archive {
+  padding: 50px 15px;
+}
+
+.archive__header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.archive__subtitle {
+  color: $color-secondary;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.archive__heading {
+  color: #1d0f44;
+}
+
+.archive-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 15px;
+  @include respond-to('md') {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include respond-to('lg') {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.archive-item {
+  background-color: $color-primary-contrast;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 #00000014;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.archive-item__title {
+  color: $color-primary;
+  display: flex;
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.archive-item__image {
+  display: flex;
+  height: 190px;
+}
+
+.archive-item__main-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 25px 30px;
+}
+
+.archive-item__footer {
+  border-top: 1px solid #dadfe3;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+
+  p {
+    color: $color-text;
+    margin-bottom: 0;
+  }
+
+  .archive-item__author {
+    font-weight: bold;
+  }
+}
+
+.archive-item--featured {
+  
+  @include respond-to('md') {
+    flex-direction: row-reverse;
+    grid-column: 1/3;
+
+    .archive-item__title {
+      flex: none;
+    }
+  
+    .archive-item__main-content {
+      justify-content: center;
+    }
+  
+    .archive-item__header {
+      flex-basis: 50%;
+    }
+  
+    .archive-item__footer {
+      border: 0;
+      justify-content: flex-start;
+      margin: 0 0 20px;
+    }
+  
+    .archive-item__image {
+      height: 365px;
+    }
+    
+    .archive-item__excerpt {
+      display: block;
+    }
+  }
+  
+  @include respond-to('lg') {
+    grid-column: 1/4;
+  }
+  
+  .archive-item__excerpt {
+    display: none;
+  }
+}
+

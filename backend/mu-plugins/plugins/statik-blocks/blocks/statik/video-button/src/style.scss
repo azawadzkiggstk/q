@@ -1,0 +1,208 @@
+@import "~@wordpress/base-styles/colors";
+@import "~@wordpress/base-styles/breakpoints";
+@import "~@wordpress/base-styles/variables";
+@import "~@wordpress/base-styles/mixins";
+@import "~@wordpress/base-styles/animations";
+@import "~@wordpress/base-styles/z-index";
+
+// This variable is repeated across Button, Buttons, and Buttons editor styles.
+$blocks-block__margin: 0.5em;
+
+// Prefer the link selector instead of the regular button classname
+// to support the previous markup in addition to the new one.
+.wp-block-statik-video-button__link {
+	color: $white;
+	background-color: #32373c;
+	border-radius: 9999px; // 100% causes an oval, but any explicit but really high value retains the pill shape.
+	box-shadow: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.125em;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px); // The extra 2px are added to size solids the same as the outline versions.
+	text-align: center;
+	text-decoration: none;
+	word-break: break-word; // overflow-wrap doesn't work well if a link is wrapped in the div, so use word-break here.
+	box-sizing: border-box;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&:visited {
+		background: #32373c !important;
+		color: $white;
+	}
+
+	&.aligncenter {
+		text-align: center;
+	}
+
+	&.alignright {
+
+		/*rtl:ignore*/
+		text-align: right;
+	}
+}
+
+// Increased specificity needed to override margins
+.wp-block-statik-video-buttons > .wp-block-statik-video-button {
+
+	&.has-custom-width {
+		max-width: none;
+
+		.wp-block-statik-video-button__link {
+			width: 100%;
+		}
+	}
+
+	&.has-custom-font-size {
+
+		.wp-block-statik-video-button__link {
+			font-size: inherit;
+		}
+	}
+
+	&.wp-block-statik-video-button__width-25 {
+		width: calc(25% - #{ $blocks-block__margin });
+	}
+
+	&.wp-block-statik-video-button__width-50 {
+		width: calc(50% - #{ $blocks-block__margin });
+	}
+
+	&.wp-block-statik-video-button__width-75 {
+		width: calc(75% - #{ $blocks-block__margin });
+	}
+
+	&.wp-block-statik-video-button__width-100 {
+		width: 100%;
+		flex-basis: 100%;
+	}
+}
+
+// For vertical buttons, gap is not factored into width calculations.
+.wp-block-statik-video-buttons.is-vertical > .wp-block-statik-video-button {
+
+	&.wp-block-statik-video-button__width-25 {
+		width: 25%;
+	}
+
+	&.wp-block-statik-video-button__width-50 {
+		width: 50%;
+	}
+
+	&.wp-block-statik-video-button__width-75 {
+		width: 75%;
+	}
+}
+
+// the first selector is required for old buttons markup
+.wp-block-statik-video-button.is-style-squared,
+.wp-block-statik-video-button__link.wp-block-statik-video-button.is-style-squared {
+	border-radius: 0;
+}
+
+
+// the first selector is required for old buttons markup
+.wp-block-statik-video-button.no-border-radius,
+.wp-block-statik-video-button__link.no-border-radius {
+	border-radius: 0 !important;
+}
+
+.is-style-outline > :where(.wp-block-statik-video-button__link),
+:where(.wp-block-statik-video-button__link).is-style-outline {
+	border: 2px solid currentcolor;
+	padding: 0.667em 1.333em;
+}
+
+.is-style-outline > .wp-block-statik-video-button__link:not(.has-text-color),
+.wp-block-statik-video-button__link.is-style-outline:not(.has-text-color) {
+	color: currentcolor;
+}
+
+.is-style-outline > .wp-block-statik-video-button__link:not(.has-background),
+.wp-block-statik-video-button__link.is-style-outline:not(.has-background) {
+	background-color: transparent;
+}
+
+.modal__overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal__close {
+	background-color: transparent !important;
+	border: 0;
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	position: absolute;
+	top: -35px;
+	right: -35px;
+}
+
+.modal__close::before {
+	color: white;
+	content: "⤬";
+}
+
+.modal__content {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.8);
+	position: relative;
+}
+
+
+/**************************\
+  Animation Style
+\**************************/
+@keyframes fadeInAnimation {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutAnimation {
+
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+
+.micromodal-slide {
+	display: none;
+}
+
+.micromodal-slide.is-open {
+	display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+	animation: fadeInAnimation 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+	animation: fadeOutAnimation 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide .modal__overlay {
+	will-change: transform;
+}

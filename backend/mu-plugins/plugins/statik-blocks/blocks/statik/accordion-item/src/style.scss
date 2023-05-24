@@ -1,0 +1,50 @@
+$attr--headerBackgroundColor: var(--statik-accordion--headerBackgroundColor);
+$attr--headerTextColor: var(--statik-accordion--headerTextColor);
+$attr--contentBackgroundColor: var(--statik-accordion--contentBackgroundColor);
+$attr--contentTextColor: var(--statik-accordion--contentTextColor);
+
+.wp-block-statik-accordion-item {
+  margin-bottom: 12px;
+}
+
+.wp-block-statik-accordion-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+
+  background-color: $attr--headerBackgroundColor;
+  color: $attr--headerTextColor;
+}
+
+.wp-block-statik-accordion-item__title {
+  margin: 0;
+}
+
+.wp-block-statik-accordion-item__body {
+  height: 0;
+  overflow: hidden;
+  background-color: $attr--contentBackgroundColor;
+  color: $attr--contentTextColor;
+  transition: 1s ease height;
+}
+
+.wp-block-statik-accordion-item__body--empty {
+  padding: 20px;
+}
+
+.wp-block-statik-accordion-item__icon {
+  transition: 1s ease transform;
+  transform-origin: center;
+}
+
+.wp-block-statik-accordion-item--expanded {
+  .wp-block-statik-accordion-item__icon {
+    transform: rotate(180deg);
+  }
+
+  .wp-block-statik-accordion-item__body {
+    height: auto;
+    overflow: auto;
+  }
+}

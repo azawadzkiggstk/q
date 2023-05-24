@@ -1,0 +1,56 @@
+.main-header__desktop-nav {
+  display: none;
+
+  @include respond-to('xl') {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.main-header__desktop-nav {
+  .menu__list {
+    list-style: none;
+  }
+
+  .menu__list--lvl-0 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  } 
+
+  .menu__list--lvl-1 .menu__link {
+    padding: 1rem;
+  }
+  
+  .menu__list--lvl-1 {
+    position: absolute;
+  }
+  
+  .menu__link {
+    display: block;
+    padding: 2.35rem 1rem;
+    position: relative;
+  }
+  
+  .menu__megamenu {
+    background: $color-primary-contrast;
+    left: -15px;
+    margin: 20px 0 0;
+    min-width: 200px;
+    opacity: 0;
+    padding-top: 2rem;
+    position: absolute;
+    right: -15px;
+    top: 100px;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    z-index: 10;
+  }
+  
+  .menu__item:hover .menu__megamenu {
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}

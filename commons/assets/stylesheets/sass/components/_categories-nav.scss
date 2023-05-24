@@ -1,0 +1,30 @@
+/// Defines properties supposed to be applied to
+/// cover with small bg
+/// @group Components
+.categories-nav__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto 50px;
+  max-width: 1120px;
+  padding: 0 15px;
+}
+
+.categories-nav__list-item a {
+  color: $color-text;
+  display: block;
+  margin: 0 10px;
+  opacity: 0.9;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.categories-nav__list-item:hover a,
+.categories-nav__list-item--active a {
+  color: $color-secondary;
+  opacity: 1;
+}
+
+

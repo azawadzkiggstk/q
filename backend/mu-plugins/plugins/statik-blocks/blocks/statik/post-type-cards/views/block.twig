@@ -1,0 +1,10 @@
+{# @var Statik\Blocks\CustomBlocks\Statik\PostTypeCards\PostTypeCards blockType  #}
+{# @var Statik\Blocks\Block\Block block #}
+{# @var string innerContent #}
+
+<div class="alignfull">
+  {% for post in blockType.getPosts() %}
+    <h2><a href="{{ post.permalink }}">{{ post.post_title|e }}</a></h2>
+    <p>{{ post.post_excerpt|e }}</p>
+  {% endfor %}
+</div>

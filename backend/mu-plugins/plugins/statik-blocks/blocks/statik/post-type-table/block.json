@@ -1,0 +1,57 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/post-type-table",
+	"version": "4.13.0",
+	"title": "Post Type Table",
+	"category": "layout",
+	"description": "Present WordPress entities as card components either organised as a rows and columns or a carousel.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"postType": {
+			"type": "string"
+		},
+		"displayTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayCategories": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayTags": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayLastUpdatedDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayReadMoreButton": {
+			"type": "boolean",
+			"default": true
+		},
+		"followUpArea": {
+			"enum": [ "none", "area", "button" ],
+			"default": "none"
+		},
+		"destination": {
+			"type": "string",
+			"default": "default"
+		},
+		"query": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"example": {
+		"query": {}
+	},
+	"supports": {
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,225 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+    "version": 2,
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "area": "footer"
+        }
+    ],
+    "settings": {
+        "custom": {
+            "breakpoints": {
+                "mobile": 0,
+                "tablet": 481,
+                "desktop": 769
+            }
+        },
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "var(--color-primary)",
+                    "name": "Color Primary"
+                },
+                {
+                    "slug": "primary-contrast",
+                    "color": "var(--color-primary-contrast)",
+                    "name": "Color Primary Contrast"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "var(--color-secondary)",
+                    "name": "Color Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "var(--color-tertiary)",
+                    "name": "Color Tertiary"
+                },
+                {
+                    "slug": "text-base",
+                    "color": "var(--color-text-base)",
+                    "name": "Color Text"
+                },
+                {
+                    "slug": "text-primary",
+                    "color": "var(--color-text-primary)",
+                    "name": "Color Text Primary"
+                },
+                {
+                    "slug": "text-secondary",
+                    "color": "var(--color-text-secondary)",
+                    "name": "Color Text Secondary"
+                },
+                {
+                    "slug": "background-primary",
+                    "color": "var(--color-background-primary)",
+                    "name": "Color Background Primary"
+                },
+                {
+                    "slug": "background-secondary",
+                    "color": "var(--color-background-secondary)",
+                    "name": "Color Background Secondary"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1400px"
+        },
+        "typography": {
+            "lineHeight": true,
+            "fontSizes": [
+                {
+                    "slug": "paragaph-small",
+                    "size": "var(--font-size-small)",
+                    "name": "Small Paragraph"
+                },
+                {
+                    "slug": "paragraph",
+                    "size": "var(--font-size)",
+                    "name": "Paragraph"
+                },
+                {
+                    "slug": "heading-1",
+                    "size": "var(--font-size-h1)",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "var(--font-size-h2)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "var(--font-size-h3)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "var(--font-size-h4)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "var(--font-size-h5)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "var(--font-size-h6)",
+                    "name": "Heading 6"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFamily": "var(--font-family)",
+                    "slug": "main-font",
+                    "name": "Main font"
+                },
+                {
+                    "fontFamily": "var(--font-family-headings)",
+                    "slug": "heading-font",
+                    "name": "Heading font"
+                },
+                {
+                    "fontFamily": "var(--font-family-pre)",
+                    "slug": "font-pre",
+                    "name": "FontPre"
+                },
+                {
+                    "fontFamily": "var(--font-family-code)",
+                    "slug": "font-code",
+                    "name": "FontCode"
+                }
+            ]
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ]
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "blocks": {
+            "core/columns": {
+                "custom": {
+                    "gap": "1rem"
+                }
+            }
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--font-family)",
+            "fontSize": "var(--font-size)",
+            "lineHeight": "var(--font-line-height-body)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--dark-gray)"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--font-size-h1)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h1)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--font-size-h2)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h2)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--font-size-h3)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h3)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--font-size-h4)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h4)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--font-size-h5)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h5)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--font-size-h6)",
+                    "lineHeight": "var(--font-line-height-heading)",
+                    "fontWeight": "var(--font-weight-h6)"
+                }
+            }
+        }
+    }
+}

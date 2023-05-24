@@ -1,0 +1,12 @@
+.wp-block-statik-slider-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex: 0 0 100%;
+  min-width: 0;
+
+  /* Disable animations */
+  transition: none !important;
+  transform: none !important;
+}

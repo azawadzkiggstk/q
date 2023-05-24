@@ -1,0 +1,54 @@
+##  This is a docker configuration for local development purposes.
+##  Please note passwords are updated automatically by Statik CLI,
+##  there is no problem with committing this file to the repository
+##  as passwords are meant only for local development purposes.
+##
+##  PLEASE NOTE
+##
+##  This config should be NEVER used to run actual docker instance
+##  on any of publicly exposed environments
+
+version: '3.3'
+
+services:
+  db:
+    image: mariadb:10.6
+    container_name: statik_mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - ./.mysql:/var/lib/mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "${WORDPRESS_DB_PASSWORD}"
+      MYSQL_DATABASE: "${WORDPRESS_DB_NAME}"
+      MYSQL_USER: "${WORDPRESS_DB_USER}"
+      MYSQL_PASSWORD: "${WORDPRESS_DB_PASSWORD}"
+
+  nginx:
+    image: ghcr.io/iamdripfeed/nginx-local:1.0.1
+    container_name: statik_nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./.wordpress:/var/www/html
+      - ./backend:/var/www/html/wp-content
+    depends_on:
+      - wordpress
+    restart: unless-stopped
+
+  wordpress:
+    image: wordpress:6.1-php8.0-fpm
+    container_name: statik_wordpress
+    volumes:
+      - ./.wordpress:/var/www/html
+      - ./backend:/var/www/html/wp-content
+    depends_on:
+      - db
+    restart: unless-stopped
+    environment:
+      WORDPRESS_DB_NAME: "${WORDPRESS_DB_NAME}"
+      WORDPRESS_TABLE_PREFIX: "${WORDPRESS_TABLE_PREFIX}"
+      WORDPRESS_DB_HOST: "${WORDPRESS_DB_HOST}"
+      WORDPRESS_DB_USER: "${WORDPRESS_DB_USER}"
+      WORDPRESS_DB_PASSWORD: "${WORDPRESS_DB_PASSWORD}"

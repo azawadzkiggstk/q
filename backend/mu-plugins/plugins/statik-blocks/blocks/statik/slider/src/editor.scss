@@ -1,0 +1,30 @@
+//
+// Slides
+//
+
+.wp-block-statik-slider__slides {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.wp-block-statik-slider__slides > .wp-block-statik-slider-slide {
+  display: none;
+
+  // unselected
+  order: 10;
+}
+
+.wp-block-statik-slider__slides > .wp-block-statik-slider-slide--selected {
+  display: flex;
+
+  order: 1;
+}
+
+.wp-block-statik-slider--auto-height > .wp-block-statik-slider__slides > .wp-block-statik-slider-slide {
+  display: flex;
+  visibility: hidden;
+}
+.wp-block-statik-slider--auto-height > .wp-block-statik-slider__slides > .wp-block-statik-slider-slide--selected {
+  visibility: visible;
+}

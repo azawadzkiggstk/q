@@ -1,0 +1,110 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/tabs",
+	"version": "4.13.0",
+	"title": "Tabs",
+	"category": "layout",
+	"description": "Organise content in a tabbed layout",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"activeTab": {
+			"type": "number",
+			"default": 0
+		},
+		"descriptionEnabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"preSelectedTab": {
+			"type": "number",
+			"default": 0
+		},
+		"tabsAlignment": {
+			"enum": [ "left", "center", "right" ],
+			"default": "left"
+		},
+		"accentColor": {
+			"type": "string",
+			"default": "#CCE3EB"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#3858E9"
+		},
+		"activeAccentColor": {
+			"type": "string",
+			"default": "#1D35B4"
+		},
+		"activeTextColor": {
+			"type": "string",
+			"default": "#FFFFFF"
+		},
+		"contentBackgroundColor": {
+			"type": "string"
+		},
+		"contentTextColor": {
+			"type": "string"
+		},
+		"tabs": {
+			"type": "array"
+		}
+	},
+	"example": {
+		"attributes": {
+			"descriptionEnabled": true,
+			"contentBackgroundColor": "#FFFFFF",
+			"contentTextColor": "#39414D"
+		},
+		"innerBlocks": [
+			{
+				"name": "statik/tab",
+				"attributes": {
+					"title": "Tab #1",
+					"description": "Tab #1 description"
+				},
+				"innerBlocks": [
+					{
+						"name": "core/group",
+						"attributes": {
+							"style": {
+								"spacing": {
+									"padding": {
+										"top": 20,
+										"right": 20,
+										"bottom": 20,
+										"left": 20
+									}
+								}
+							}
+						},
+						"innerBlocks": [
+							{
+								"name": "core/paragraph",
+								"attributes": {
+									"content": "Lorem ipsum dolor sit amet"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "statik/tab",
+				"attributes": {
+					"title": "Tab #2",
+					"description": "Tab #2 description"
+				}
+			}
+		]
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./build/view.js"
+}

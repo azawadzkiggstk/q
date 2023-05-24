@@ -1,0 +1,373 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Statik Luna\n"
+"POT-Creation-Date: 2022-04-04 09:53+0200\n"
+"PO-Revision-Date: 2022-03-30 10:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: index.php:16
+#, php-format
+msgid "Navigate to the %s and log in."
+msgstr ""
+
+#: index.php:17 index.php:48
+msgid "Dashboard"
+msgstr ""
+
+#: index.php:40
+msgid "Welcome to"
+msgstr ""
+
+#: index.php:45
+msgid "Navigate to one of the following pages or use the admin bar above."
+msgstr ""
+
+#: index.php:51
+msgid "Edit Home Page"
+msgstr ""
+
+#: index.php:55
+msgid "Global Settings"
+msgstr ""
+
+#: index.php:58
+msgid "Deploy Website"
+msgstr ""
+
+#: index.php:66
+msgid "Powered by Statik Platform"
+msgstr ""
+
+#: patterns/accordion__faq.php:10
+msgid "FAQ"
+msgstr ""
+
+#: patterns/accordion__faq.php:11
+#: patterns/accordion__heading-and-accordion.php:11
+#: patterns/accordion__heading-with-accordion-image.php:11
+#: patterns/cta__centered-with-1-button.php:11 patterns/cta__two-columns.php:11
+#: patterns/cta_one-column-box-with-border.php:11
+#: patterns/cta_single-columns-with-gradient.php:11
+#: patterns/cta_two-columns-gradient-bg.php:11
+#: patterns/cta_two-columns-oneline.php:11
+#: patterns/icon__icons-in-three-columns-with-paragraphs.php:11
+#: patterns/icon__icons-with-paragraph.php:11
+msgid "This block contains combination Heading and Accordion blocks"
+msgstr ""
+
+#: patterns/accordion__heading-and-accordion.php:10
+msgid "Heading and Accordion"
+msgstr ""
+
+#: patterns/accordion__heading-with-accordion-image.php:10
+#: patterns/accordion__two-accordions-in-table.php:10
+msgid "Heading with desc and two Accordions in table"
+msgstr ""
+
+#: patterns/accordion__two-accordions-in-table.php:11
+msgid "This pattern contains combination Heading and Accordion blocks"
+msgstr ""
+
+#: patterns/banner__full-width-with-gradient.php:10
+#: patterns/banner__two-column-product.php:10
+msgid "Banner with gradient"
+msgstr ""
+
+#: patterns/banner__full-width-with-gradient.php:11
+#: patterns/banner__full-width-with-icon.php:11
+#: patterns/banner__full-width-with-image-2.php:11
+#: patterns/banner__full-width-with-image.php:11
+#: patterns/banner__full-width-with-product.php:11
+#: patterns/banner__two-column-product.php:11
+#: patterns/banner__two-column-with-two-products.php:11
+#: patterns/cta__two-separated-columns.php:11
+msgid "This block contains combination Heading and button"
+msgstr ""
+
+#: patterns/banner__full-width-with-icon.php:10
+msgid "Banner with icon, heading and button"
+msgstr ""
+
+#: patterns/banner__full-width-with-image-2.php:10
+#: patterns/banner__full-width-with-image.php:10
+msgid "Banner with image text and buttons"
+msgstr ""
+
+#: patterns/banner__full-width-with-product.php:10
+msgid "Banner with product"
+msgstr ""
+
+#: patterns/banner__two-column-with-two-products.php:10
+msgid "Banner with two products"
+msgstr ""
+
+#: patterns/categories/accordion.php:7
+msgid "Accordion"
+msgstr ""
+
+#: patterns/categories/banner.php:7
+msgid "Banner"
+msgstr ""
+
+#: patterns/categories/cta.php:7
+msgid "CTA"
+msgstr ""
+
+#: patterns/categories/icon.php:7
+msgid "Icon"
+msgstr ""
+
+#: patterns/categories/paragraph.php:7
+msgid "Paragraph"
+msgstr ""
+
+#: patterns/categories/slider.php:7
+msgid "Slider"
+msgstr ""
+
+#: patterns/categories/tabs.php:7
+msgid "Tabs"
+msgstr ""
+
+#: patterns/categories/video.php:7
+msgid "Video"
+msgstr ""
+
+#: patterns/cta__centered-with-1-button.php:10
+msgid "CTA - centered with 1 button"
+msgstr ""
+
+#: patterns/cta__two-columns.php:10
+msgid "CTA - with two buttons"
+msgstr ""
+
+#: patterns/cta__two-separated-columns.php:10
+msgid "CTA - with two separated columns"
+msgstr ""
+
+#: patterns/cta_one-column-box-with-border.php:10
+#: patterns/cta_two-columns-oneline.php:10
+msgid "CTA - one line"
+msgstr ""
+
+#: patterns/cta_single-columns-with-gradient.php:10
+msgid "CTA - Single column with gradient"
+msgstr ""
+
+#: patterns/cta_two-columns-gradient-bg.php:10
+msgid "CTA - with button in separated column"
+msgstr ""
+
+#: patterns/icon__icon-columns-with-icons-rectangular.php:10
+#: patterns/icon__icon-columns-with-icons-with-rect-borders.php:10
+msgid "Icons in rectangular boxes"
+msgstr ""
+
+#: patterns/icon__icon-columns-with-icons-rectangular.php:11
+#: patterns/icon__icon-columns-with-icons-with-rect-borders.php:11
+#: patterns/icon__icon-icons-and-headings.php:11
+#: patterns/icon__icons-and-pagraphs-in-four-columns.php:11
+#: patterns/icon__icons-and-pagraphs-in-two-columns.php:11
+#: patterns/icon__icons-in-columns.php:11
+#: patterns/icon__single-icon-with-heading-and-paragraph.php:11
+#: patterns/icon__single-icon-with-paragraph.php:11
+#: patterns/icon__three-columns-with-small-icons.php:11
+#: patterns/icon__two-icons-with-paragraph.php:11
+#: patterns/paragraph__100-full-width.php:11
+#: patterns/paragraph__30x70-text-columns.php:11
+#: patterns/paragraph__30x70-text-with-image-in-columns-reverse.php:11
+#: patterns/paragraph__30x70-text-with-image-in-columns.php:11
+#: patterns/paragraph__50x50-image-and-quote.php:11
+#: patterns/paragraph__50x50-text-and-image--chessboard.php:11
+#: patterns/paragraph__50x50-text-and-image-centered.php:11
+#: patterns/paragraph__50x50-text-and-image-reverse.php:11
+#: patterns/paragraph__50x50-text-and-image.php:11
+#: patterns/paragraph__50x50-text-columns.php:11
+#: patterns/paragraph__pullqoute.php:11 patterns/paragraph__qoute.php:11
+#: patterns/tabs__centered-tabs-with-desc.php:11
+#: patterns/tabs__classic-tabs-with-content.php:11
+#: patterns/tabs__location-tabs.php:11
+msgid "This block combination with icons and heading blocks"
+msgstr ""
+
+#: patterns/icon__icon-icons-and-headings.php:10
+msgid "Icons and Headings"
+msgstr ""
+
+#: patterns/icon__icons-and-pagraphs-in-four-columns.php:10
+msgid "Icons and paragraphs in four columns"
+msgstr ""
+
+#: patterns/icon__icons-and-pagraphs-in-two-columns.php:10
+msgid "Icons and paragraphs in two columns"
+msgstr ""
+
+#: patterns/icon__icons-in-columns.php:10
+msgid "Three icons in columns"
+msgstr ""
+
+#: patterns/icon__icons-in-three-columns-with-paragraphs.php:10
+msgid "Icons with paragraph in columns"
+msgstr ""
+
+#: patterns/icon__icons-with-paragraph.php:10
+msgid "Icons with paragraph"
+msgstr ""
+
+#: patterns/icon__single-icon-with-heading-and-paragraph.php:10
+msgid "Icon with heading and paragraph"
+msgstr ""
+
+#: patterns/icon__single-icon-with-paragraph.php:10
+msgid "Single icon with paragraph"
+msgstr ""
+
+#: patterns/icon__three-columns-with-small-icons.php:10
+msgid "Three columns with small icons"
+msgstr ""
+
+#: patterns/icon__two-columns-with-icon-and-text-v2.php:10
+#: patterns/icon__two-columns-with-icon-and-text.php:10
+msgid "Two columns with icons"
+msgstr ""
+
+#: patterns/icon__two-columns-with-icon-and-text-v2.php:11
+msgid "This pattern combination with icons and paragraph blocks V2"
+msgstr ""
+
+#: patterns/icon__two-columns-with-icon-and-text.php:11
+msgid "This pattern combination with icons and paragraph blocks"
+msgstr ""
+
+#: patterns/icon__two-icons-with-paragraph.php:10
+msgid "Two icons with paragraph"
+msgstr ""
+
+#: patterns/paragraph__100-full-width.php:10
+msgid "Full width paragraph"
+msgstr ""
+
+#: patterns/paragraph__30x70-text-columns.php:10
+msgid "30% - 70% text columns"
+msgstr ""
+
+#: patterns/paragraph__30x70-text-with-image-in-columns-reverse.php:10
+msgid "70% -30% text with image"
+msgstr ""
+
+#: patterns/paragraph__30x70-text-with-image-in-columns.php:10
+msgid "30% - 70% text with image"
+msgstr ""
+
+#: patterns/paragraph__50x50-image-and-quote.php:10
+msgid "Quote with image"
+msgstr ""
+
+#: patterns/paragraph__50x50-text-and-image--chessboard.php:10
+msgid "50% - 50% text and image - chessboard"
+msgstr ""
+
+#: patterns/paragraph__50x50-text-and-image-centered.php:10
+#: patterns/paragraph__50x50-text-and-image.php:10
+msgid "50% - 50% text and image"
+msgstr ""
+
+#: patterns/paragraph__50x50-text-and-image-reverse.php:10
+msgid "50% - 50% text and image - reverse"
+msgstr ""
+
+#: patterns/paragraph__50x50-text-columns.php:10
+msgid "50% - 50% text columns"
+msgstr ""
+
+#: patterns/paragraph__pullqoute.php:10
+msgid "Blockoute"
+msgstr ""
+
+#: patterns/paragraph__qoute.php:10
+msgid "Qoute"
+msgstr ""
+
+#: patterns/slider__slider-classic.php:10
+msgid "Slider Classic"
+msgstr ""
+
+#: patterns/slider__slider-testimonial.php:10
+msgid "Testimonial slider"
+msgstr ""
+
+#: patterns/slider__slider-with-covers.php:10
+msgid "Slider with covers"
+msgstr ""
+
+#: patterns/slider__slider-with-text-and image.php:10
+msgid "Slider with image and text in columns"
+msgstr ""
+
+#: patterns/tabs__centered-tabs-with-desc.php:10
+msgid "Centered Tabs with description"
+msgstr ""
+
+#: patterns/tabs__classic-tabs-with-content.php:10
+msgid "Classic tabs"
+msgstr ""
+
+#: patterns/tabs__location-tabs.php:10
+msgid "Location Tabs"
+msgstr ""
+
+#: patterns/video__video-and-paraphraph-reverse.php:10
+#: patterns/video__video-and-paraphraph.php:10
+msgid "Video and paragpraph in columns"
+msgstr ""
+
+#: patterns/video__video-with-cover-open-in-modal.php:10
+msgid "Video with cover opened in modal"
+msgstr ""
+
+#: patterns/video__video-with-cover.php:10
+msgid "Video with cover"
+msgstr ""
+
+#: patterns/video__video-with-custom-cover.php:10
+msgid "Video with cover background and heading"
+msgstr ""
+
+#: patterns/video__video-with-paragraphs-and-buttons-in-columns.php:10
+#: patterns/video__video-with-paragraphs-in-columns.php:10
+msgid "Video and two sections with heading and paragraph"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Statik Luna"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a default theme for Statik stack designed to take full advantage of "
+"headless CMS approach."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Statik LTD"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://statik.space/"
+msgstr ""

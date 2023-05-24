@@ -1,0 +1,61 @@
+/// Defines properties supposed to be applied to
+/// `<input>` html tags.
+/// @group Components
+%input {
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  display: block;
+  min-width: 100%;
+  padding: 1rem 1.1rem;
+  transition: all 0.3s;
+  width: 100%;
+
+  &:hover {
+    border: 1px solid $color-primary;
+  }
+
+  &:focus-visible {
+    border: 1px solid $color-primary;
+    outline: none;
+  }
+}
+
+input {
+  @extend %input;
+}
+
+/// Defines properties supposed to be applied to
+/// `<select>` html tags.
+/// @group Components
+select {
+  @extend %input;
+  appearance: none;
+  background: #dadada;
+  cursor: pointer;
+  min-width: 0;
+  padding: 1rem 1.1rem;
+}
+
+/// Defines properties supposed to be applied to
+/// `<input type="checkbox">` html tags.
+/// @group Components
+.checkbox {
+  height: 20px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+
+/// Defines properties supposed to be applied to
+/// `<textarea>` html tags.
+/// @group Components
+textarea {
+  @extend %input;
+  min-height: 200px;
+  padding: 10px;
+  resize: none;
+}

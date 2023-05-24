@@ -1,0 +1,87 @@
+/// Defines properties of a regular table.
+/// @group Components
+%table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 1rem 0;
+  }
+}
+
+/// Defines properties of a structural table. The structural table
+/// is in fact scaffolding for a content, no borders, no backgrounds.
+/// Imagine it is 2004 and you build a website with tables.
+/// @group Components
+.table--structural {
+  @extend %table;
+
+  td,
+  th {
+    border: 0;
+  }
+}
+
+/// Defines properties of a "simple" table. The simple table is useful
+/// for presenting data as it highlights thead and tfoot (header and
+/// footer) and uses different styles for rows (odd and even rows).
+/// @group Components
+.table--simple {
+  @extend %table;
+  width: 100%;
+
+  thead {
+    border: 1px solid #dadada;
+    border-bottom: 2px solid #1f1f1f;
+    font-weight: bold;
+  }
+  
+  
+  thead td,
+  thead th {
+    border: 0;
+    padding: 10px;
+  }
+
+  tbody {
+    border-bottom: 2px solid #1f1f1f;
+  }
+  
+  tbody tr {
+    background: #999;  
+  }
+  
+  tbody tr:nth-child(2n + 1) {
+    background: #dadada;
+  }
+
+  tbody td,
+  tbody th {
+    border: 0;
+    padding: 10px 0;
+  }
+}
+
+/* A wrapper for tables which makes them horizontally scrollable */
+@mixin table-responsive($breakpoint) {
+  @include media-breakpoint-down($breakpoint) {
+    display: block;
+    margin: 60px;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    width: 100%;
+
+    table {
+      margin: 0 !important;
+      table-layout: auto !important;
+
+      th,
+      td {
+        min-width: 100px;
+      }
+    }
+  }
+}

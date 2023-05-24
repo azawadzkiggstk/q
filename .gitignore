@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional eslint cache
+.eslintcache
+
+# Backstop
+backstop/backstop_data/bitmaps_reference
+backstop/backstop_data/bitmaps_engine
+backstop/backstop_data/bitmaps_test
+backstop/backstop_data/html_report
+
+# Docker local files
+/.mysql
+/.nginx
+/.wordpress
+
+# dotenv environment variable files
+.env*
+
+# yarn
+/.*
+!/.git*
+!/.yarn/
+/.yarn/*
+!/.yarn/patches
+!/.yarn/releases
+!/.yarn/plugins
+!/.yarn/sdks
+!/.yarn/versions
+/.pnp.*
+!/.yarnrc.yml

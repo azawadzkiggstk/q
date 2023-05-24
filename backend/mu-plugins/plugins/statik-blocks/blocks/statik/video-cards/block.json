@@ -1,0 +1,74 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/video-cards",
+	"version": "4.13.0",
+	"title": "Video Cards",
+	"category": "media",
+	"description": "Present WordPress entities as card components either organised as a rows and columns or a carousel.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"cardsPerRow": {
+			"type": "array",
+			"items": {
+				"type": "number"
+			},
+			"default": [ 3 ]
+		},
+		"displayFeaturedImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayExcerpt": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayCategories": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayTags": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayLastUpdatedDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayReadMoreButton": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayPlayButton": {
+			"type": "boolean",
+			"default": true
+		},
+		"followUpArea": {
+			"enum": [ "none", "area", "button" ],
+			"default": "none"
+		},
+		"destination": {
+			"type": "string",
+			"default": "default"
+		},
+		"followUpBehaviour": {
+			"enum": [ "redirect", "modal" ],
+			"default": "redirect"
+		},
+		"query": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

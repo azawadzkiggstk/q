@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/video-buttons",
+	"version": "4.13.0",
+	"title": "Video Buttons",
+	"category": "design",
+	"description": "Prompt visitors to take action with a group of video button-style links.",
+	"keywords": [ "link" ],
+	"textdomain": "statik-blocks",
+	"supports": {
+		"anchor": true,
+		"align": [ "wide", "full" ],
+		"__experimentalExposeControlsToChildren": true,
+		"spacing": {
+			"blockGap": true,
+			"margin": [ "top", "bottom" ],
+			"__experimentalDefaultControls": {
+				"blockGap": true
+			}
+		},
+		"__experimentalLayout": {
+			"allowSwitching": false,
+			"allowInheriting": false,
+			"default": {
+				"type": "flex"
+			}
+		}
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

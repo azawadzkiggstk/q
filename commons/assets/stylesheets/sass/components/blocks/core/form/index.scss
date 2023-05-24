@@ -1,0 +1,88 @@
+/**
+ * Block: Gravity Forms
+ */
+ 
+$form-gap: 30px;
+ 
+.statik-block-form {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .message {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: block;
+    margin: 1rem 1.1rem;
+    padding: 1rem 1.1rem;
+    width: 100%;
+  }
+  
+  .message.is-error {
+    border-color: rgba(155, 15, 15, 0.692);
+  }
+
+  @for $field-size from 2 through 12 {
+    .form-field--size-#{$field-size} {
+      $multiplier: math.div($field-size, 12);
+      flex-basis: calc(100% * #{$multiplier});
+    }
+  }  
+}
+
+.form-field {
+  flex-basis: 100%;
+  padding: 1rem 0;
+
+  > * {
+    margin: 0 math.div($form-gap, 2);
+  }
+  
+  &__error {
+    color: #f00;
+    font-size: 14px;
+  }
+
+  &__confirm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__confirm span {
+    display: block;
+    font: inherit;
+    font-size: 1.115em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-break: anywhere;
+  }   
+
+  /* Defaults */
+  label {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  input {
+  }
+
+  select {
+  }
+
+  textarea {
+  }
+
+  /* Input types */
+  &--hidden {
+    display: none;
+  }
+}

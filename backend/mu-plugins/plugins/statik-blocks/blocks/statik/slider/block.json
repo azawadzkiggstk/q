@@ -1,0 +1,66 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/slider",
+	"version": "4.13.0",
+	"title": "Slider",
+	"category": "layout",
+	"description": "Display a carousel which prints one element at the time of a collection in a cyclic view.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"selectedSlideIndex": {
+			"type": "number",
+			"default": 0
+		},
+		"preSelectedSlide": {
+			"type": "number",
+			"default": 0
+		},
+		"showDirectionNav": {
+			"type": "boolean",
+			"default": true
+		},
+		"showControlNav": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"loop": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoHeight": {
+			"type": "boolean",
+			"default": false
+		},
+		"interval": {
+			"type": "number",
+			"default": 3000
+		},
+		"slides": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"example": {
+		"attributes": {
+			"innerBlocks": [
+				{
+					"name": "statik/slider-slide"
+				}
+			]
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./build/view.js"
+}

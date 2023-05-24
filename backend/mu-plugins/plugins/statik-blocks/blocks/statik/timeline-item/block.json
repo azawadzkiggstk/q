@@ -1,0 +1,27 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/timeline-item",
+	"version": "4.13.0",
+	"title": "Timeline Item",
+	"category": "layout",
+	"description": "A child item of a Timeline Block.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"parent": [ "statik/timeline" ],
+	"attributes": {
+		"label": {
+			"type": "string"
+		},
+		"labelAlign": {
+			"enum": [ "left", "right" ],
+			"default": "left"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

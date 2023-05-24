@@ -1,0 +1,47 @@
+/**
+   * Default cookie consent pattern defined within a Gatsby.js theme.
+   * It adds default styling scoped inside `.site__cookie-consent` selector.
+   * The idea is to allow quick kick off the development phase with
+   * a default styling. If you need to update some specific
+   * properties, simply declare `.site__cookie-consent` and override what you
+   * need. In case the project requires major changes to the component
+   * it is better to remove the @extend and define a complete component
+   * styling from scratch. Search for %default-cookie-consent pattern to
+   * get the default styling.
+   */
+
+.cookie-consent {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  transition: 1s ease;
+  width: 100vw;
+  z-index: 99;
+
+  @media print {
+    display: none;
+  }
+}
+
+.cookie-consent__container {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 20px;
+  left: 50%;
+  max-width: 1140px;
+  padding: 2rem;
+  position: fixed;
+  transform: translateX(-50%);
+  transition: 1s ease;
+  width: 100%;
+  z-index: 99;
+}
+
+.cookie-consent__message {
+  margin: 1rem 0;
+}
+
+.cookie-consent__button {
+  @extend %button;
+  margin-right: 2rem;
+}

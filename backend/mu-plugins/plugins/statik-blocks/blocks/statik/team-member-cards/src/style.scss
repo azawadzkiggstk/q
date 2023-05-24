@@ -1,0 +1,65 @@
+.wp-block-statik-team-member-cards {
+  --wp-block-statik-team-member-cards--attr--cardsPerRow: 3;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.wp-block-statik-team-member-cards {
+  .wp-block-statik-team-member-cards__card {
+    flex: 0 0 calc(100% / var(--wp-block-statik-team-member-cards--attr--cardsPerRow) - 30px);
+  }
+}
+
+.wp-block-statik-team-member-cards__row {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 -15px;
+}
+
+.wp-block-statik-team-member-cards__card {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.wp-block-statik-team-member-cards__image {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-team-member-cards__name {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-team-member-cards__short-desc {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-team-member-cards__long-desc {
+  flex: 0 0 100%;
+}
+
+.wp-block-statik-team-member-cards__social-media {
+  display: flex;
+  flex: 0 0 100%;
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-right: 5px;
+  }
+}
+
+.wp-block-statik-team-member-cards__mail {
+  > span {
+    cursor: pointer;
+  }
+}

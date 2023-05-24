@@ -1,0 +1,24 @@
+.pagination {}
+
+.pagination__list {
+  display: flex;
+  list-style: none;
+}
+
+.pagination__list-item a {
+  padding: 10px;
+}
+
+.pagination__list-item--disabled {
+  opacity: 0.5;
+}
+
+.pagination__list-item--pre-ellipsis,
+.pagination__list-item--post-ellipsis {
+  opacity: 0.5;
+  user-select: none;
+}
+
+.pagination__list-item--active a {
+  font-weight: bold;
+}

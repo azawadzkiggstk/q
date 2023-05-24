@@ -1,0 +1,39 @@
+/// Defines properties of lists. Both `<ul>` and
+/// `<ol>` are supported out of the box.
+/// @group Components
+
+ul,
+ol {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: (1 * $size__spacing-unit);
+
+  li {
+    font: $_font__body;
+  }
+}
+
+ul {
+  list-style: disc;
+
+  ul {
+    list-style-type: circle;
+  }
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  padding-left: (2 * $size__spacing-unit);
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 $size__spacing-unit $size__spacing-unit;
+}

@@ -1,0 +1,10 @@
+node_modules
+vendor
+**/node_modules/**
+**/.cache/**
+**/.yarn/**
+**/.bash/**
+**/.jest/**
+**/build/**
+**/public/**
+**/vendor/**

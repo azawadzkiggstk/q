@@ -1,0 +1,35 @@
+{
+  "name": "@statik-space/wordpress-statik-blocks",
+  "version": "4.13.0-beta.0",
+  "description": "Statik utils plugin for manage Gutenberg Blocks.",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/statik-space/wordpress-statik-blocks.git",
+    "directory": "packages/@statik-space/wordpress-statik-blocks-utils"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "files": [
+    "./build"
+  ],
+  "scripts": {
+    "start": "babel ./src --out-dir=\"./build\" --copy-files --no-copy-ignored --watch",
+    "build": "babel ./src --out-dir=\"./build\" --copy-files --no-copy-ignored"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "query-string": "^7.1.1",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "@wordpress/icons": "^9.18.0"
+  },
+  "bugs": {
+    "url": "https://github.com/statik-space/wordpress-statik-blocks/issues"
+  },
+  "homepage": "https://github.com/statik-space/wordpress-statik-blocks#readme",
+  "main": "./build/index.js",
+  "author": ""
+}

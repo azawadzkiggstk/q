@@ -1,0 +1,398 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Statik GraphQL\n"
+"POT-Creation-Date: 2023-02-16 08:04+0100\n"
+"PO-Revision-Date: 2022-11-09 10:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: Statik.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: src/Dashboard/Dashboard.php:87
+msgid "Your settings have not been updated. Please try again!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:103
+msgid "Your settings have been updated."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:54
+msgid "Query settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:58
+msgid "Default query amount"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:60
+msgid "Filter the default number of results per page that should be queried."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:68
+msgid "Maximum query amount"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:70
+msgid "Filter the maximum number of results per page that can be queried."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:81
+msgid "Debug settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:85
+msgid "Debug mode"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:87
+msgid ""
+"Whether plugin requests should execute in \"debug\" mode. This setting is "
+"disabled if <code>GRAPHQL_DEBUG</code> is defined in <code>wp-config.php</"
+"code> file."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:96
+msgid "Tracing"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:98
+msgid "Adds trace data to the extensions portion of GraphQL responses"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:106
+msgid "Query logs"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:107
+msgid ""
+"This is a debug tool that can have an impact on performance and is not "
+"recommended to have active in production. Adds SQL Query logs to the "
+"extensions portion of GraphQL responses."
+msgstr ""
+
+#: src/GraphQL/Admin/GraphiQL/GraphiQL.php:19
+#: src/GraphQL/Admin/GraphiQL/GraphiQL.php:20
+msgid "GraphiQL IDE"
+msgstr ""
+
+#: src/GraphQL/Field/ContentNodeDateFormatField.php:39
+msgid "Formatted post publishing date."
+msgstr ""
+
+#: src/GraphQL/Field/ContentNodeDateFormatField.php:43
+#: src/GraphQL/Type/Enum/ContentTypeDateFormatEnum.php:32
+msgid "Preformatted string of post publishing date."
+msgstr ""
+
+#: src/GraphQL/Field/ContentNodeDateFormatField.php:76
+msgid " ago"
+msgstr ""
+
+#: src/GraphQL/Field/ContentNodeReadTimeField.php:48
+msgid "Read time in minutes."
+msgstr ""
+
+#: src/GraphQL/Field/ContentNodeSharingHreflangField.php:39
+msgid "Post hreflang structure."
+msgstr ""
+
+#: src/GraphQL/Field/GutenbergBlockTypeField.php:41
+msgid "The single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Field/GutenbergBlockTypeField.php:45
+msgid "The name of the object."
+msgstr ""
+
+#: src/GraphQL/Field/MediaItemPlaceholderBase64Field.php:39
+msgid "The Placeholder image (20x20) encoded to Base64."
+msgstr ""
+
+#: src/GraphQL/Field/MenuIsHierarchicalField.php:37
+msgid "Whether the object is hierarchical."
+msgstr ""
+
+#: src/GraphQL/Field/RootQueryTranslationField.php:36
+msgid "Retrieve the translation of text."
+msgstr ""
+
+#: src/GraphQL/Field/RootQueryTranslationField.php:40
+msgid "Text to translate."
+msgstr ""
+
+#: src/GraphQL/Field/RootQueryTranslationField.php:45
+msgid ""
+"Unique identifier for retrieving translated strings. Default \"statik\"."
+msgstr ""
+
+#: src/GraphQL/Field/RootQueryTranslationField.php:51
+msgid "Context information for the translators."
+msgstr ""
+
+#: src/GraphQL/Field/ThemeGlobalStylesheetsField.php:38
+msgid "The global stylesheets list."
+msgstr ""
+
+#: src/GraphQL/Type/Enum/ContentTypeDateFormatEnum.php:37
+msgid "Display Post publishing date formatted by value in Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Enum/ContentTypeDateFormatEnum.php:44
+msgid "Display Post publishing time formatted by value in Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Enum/ContentTypeDateFormatEnum.php:50
+msgid "Formatted human readable string of post publishing date."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockAttributesField.php:32
+msgid "The single Gutenberg block attribute."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockAttributesField.php:36
+msgid "The name of single Gutenberg block attribute."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockAttributesField.php:40
+msgid "The value of single Gutenberg block attribute."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockField.php:36
+#, php-format
+msgid "The single %s block."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:32
+msgid "The single Gutenberg block Type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:37
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:41
+msgid "The name of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:45
+msgid "The parent block type name of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:49
+msgid "The title of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:53
+msgid "The description of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:57
+msgid "The supports JSON of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:61
+msgid "The attributes JSON of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:65
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:69
+msgid "The uses context JSON of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/GutenbergBlockTypeField.php:73
+msgid "The raw JSON of single Gutenberg block type."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:32
+msgid "The SEO Framework values for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:37
+msgid "The SEO title for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:41
+msgid "The SEO description for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:45
+msgid "The SEO OpenGraph title for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:49
+msgid "The SEO OpenGraph description for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:53
+msgid "The SEO Twitter title for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:57
+msgid "The SEO Twitter description for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:61
+msgid "The SEO image URL for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:65
+msgid "The Redirect URL for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:69
+msgid "The Canonical URL for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:73
+msgid "Determine if `noindex` meta is enabled for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:77
+msgid "Determine if `nofollow` meta is enabled for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/NodeSeoField.php:81
+msgid "Determine if `noarchive` meta is enabled for Content Node."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:32
+msgid "The Sharing Hreflang settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:36
+msgid "The ID of the hreflang blog."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:40
+msgid "Whether the blog is hidden, i.e. deleted."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:44
+msgid "The ID of the hreflang post."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:48
+msgid "The URL of the hreflang post."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:52
+msgid "The language of the hreflang."
+msgstr ""
+
+#: src/GraphQL/Type/Field/SharingHreflangField.php:56
+msgid "Whether the blog is a default one."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:32
+msgid "The theme Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:37
+msgid "The raw JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:41
+msgid "The border JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:45
+msgid "The color JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:49
+msgid "The spacing JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:53
+msgid "The typography JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:57
+msgid "The blocks JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:61
+msgid "The custom JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Field/ThemeGlobalSettingsField.php:65
+msgid "The layout JSON of theme's Global Settings."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:36
+msgid ""
+"The single Statik Gutenberg block that are generated in Gutenberg editor."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:43
+msgid "The ID of single Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:47
+msgid "The attributes assigned for single Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:51
+msgid "The database ID of single Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:55
+msgid "The ID of parent Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:59
+msgid "The database ID of parent Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:63
+msgid "The ID of parent Content Node post."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:67
+msgid "The database ID of parent Content Node post."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:71
+msgid "The name of single Gutenberg block."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:75
+msgid "The block type configuration as a JSON."
+msgstr ""
+
+#: src/GraphQL/Type/Interface/GutenbergBlockInterface.php:79
+msgid "The raw HTML of single Gutenberg block."
+msgstr ""
+
+#: src/Plugin.php:67
+msgid "The plugin requires at least PHP 8.0"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Statik GraphQL"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://statik.space/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Statik plugin for manage the GraphQL."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Statik LTD"
+msgstr ""

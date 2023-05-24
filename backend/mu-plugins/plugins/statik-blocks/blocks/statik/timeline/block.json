@@ -1,0 +1,121 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/timeline",
+	"version": "4.13.0",
+	"title": "Timeline",
+	"category": "layout",
+	"description": "Display a list of events in chronological order presented as cards.",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"labelsEnabled": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"example": {
+		"innerBlocks": [
+			{
+				"name": "statik/timeline-item",
+				"attributes": {
+					"label": "First label"
+				},
+				"innerBlocks": [
+					{
+						"name": "core/group",
+						"attributes": {
+							"style": {
+								"spacing": {
+									"padding": {
+										"top": 20,
+										"right": 20,
+										"bottom": 20,
+										"left": 20
+									}
+								}
+							}
+						},
+						"innerBlocks": [
+							{
+								"name": "core/paragraph",
+								"attributes": {
+									"content": "Lorem ipsum dolor sit amet"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "statik/timeline-item",
+				"attributes": {
+					"label": "Second label",
+					"labelAlign": "right"
+				},
+				"innerBlocks": [
+					{
+						"name": "core/group",
+						"attributes": {
+							"style": {
+								"spacing": {
+									"padding": {
+										"top": 20,
+										"right": 20,
+										"bottom": 20,
+										"left": 20
+									}
+								}
+							}
+						},
+						"innerBlocks": [
+							{
+								"name": "core/paragraph",
+								"attributes": {
+									"content": "Lorem ipsum dolor sit amet"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "statik/timeline-item",
+				"attributes": {
+					"label": "Third label"
+				},
+				"innerBlocks": [
+					{
+						"name": "core/group",
+						"attributes": {
+							"style": {
+								"spacing": {
+									"padding": {
+										"top": 20,
+										"right": 20,
+										"bottom": 20,
+										"left": 20
+									}
+								}
+							}
+						},
+						"innerBlocks": [
+							{
+								"name": "core/paragraph",
+								"attributes": {
+									"content": "Lorem ipsum dolor sit amet"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

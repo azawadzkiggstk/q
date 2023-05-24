@@ -1,0 +1,120 @@
+/**
+ * This file contains project specific colors. Please do update
+ * original variables, rather than create new names. The following
+ * variables are required: `$color--background`, `$color--background--subtle`,
+ * `$color--primary`, `$color--secondary`, `$color--tertiary`
+ */
+/// Primary Color treated as a leading brand color
+/// @group Colors
+/// @type Color
+$color-primary: hsla(264, 85%, 27%, 1) !default;
+
+/// Supplementary Primary Color which harmonizes with the leading Primary Color
+/// @group Colors
+/// @type Color
+$color-primary-contrast: hsla(0, 0%, 100%, 1) !default;
+
+/// Secondary Color treated as a sub-leading brand color
+/// @group Colors
+/// @type Color
+$color-secondary: hsla(155, 69%, 52%, 1) !default;
+
+/// Supplementary Secondary Color which harmonizes with the sub-leading Secondary Color
+/// @group Colors
+/// @type Color
+$color-secondary-contrast: #222 !default;
+
+/// Supplementary Secondary Color which harmonizes with the sub-leading Secondary Color
+/// @group Colors
+/// @type Color
+$color-tertiary: hsla(264, 85%, 27%, 1) !default;
+
+/// Shades Colors
+/// @group Colors
+/// @type Color
+$color-shade-dark: #020d16 !default;
+$color-shade-1: #34536f !default;
+$color-shade-2: #61798f !default;
+$color-shade-3: #a4b2bf !default;
+$color-shade-4: #c1ccd7 !default;
+$color-shade-5: #e8ebef !default;
+$color-shade-6: #f2f2f2 !default;
+$color-shade-light: #fff !default;
+
+/// Text Color, which is usually applied to regular text.
+/// @group Colors
+/// @type Color
+$color-text: hsla(213, 57%, 15%, 1) !default;
+
+/// Text Primary Color
+/// @group Colors
+/// @type Color
+$color-text-primary: hsla(264, 85%, 27%, 1);
+
+/// Text Secondary Color
+/// @group Colors
+/// @type Color
+$color-text-secondary: $color-text-primary !default;
+
+/// Background color, which is usually default website background.
+/// @group Colors
+/// @type Color
+$color-background: hsla(213, 57%, 15%, 1);
+
+/// Background Primary Color
+/// @group Colors
+/// @type Color
+$color-background-primary: $color-background !default;
+
+/// Background Secondary Color
+/// @group Colors
+/// @type Color
+$color-background-secondary: #0c7ba7 !default;
+
+/// Success Color
+/// @group Colors
+/// @type Color
+$color-success: #46a45b !default;
+
+/// Danger Color
+/// @group Colors
+/// @type Color
+$color-danger: #ebbb47 !default;
+
+/// Warning Color
+/// @group Colors
+/// @type Color
+$color-warning: #d26060 !default;
+
+/// Info Color
+/// @group Colors
+/// @type Color
+$color-info: #199bd7 !default;
+
+/// Default color palette which lists all available colours.
+/// Color palette are useful to map specific colours to
+/// their background, so using one of them could set a colour and
+/// corresponding background without complex logic behind it.
+/// @group Colors
+$color--palette: (
+  'background': $color-background,
+  'subtle-background': $color-background-primary,
+  'primary': $color-primary,
+  'secondary': $color-secondary,
+  'tertiary': $color-tertiary,
+);
+
+/// Background color of a body element
+/// @group Colors
+/// @type Color
+$color--body--background: $color-background !default;
+
+/// Background color for active element on screen readers (accessibility)
+/// @group Colors
+/// @type Color
+$color--element--background--screen: darken($color__body--background, 5%) !default;
+
+/// Background color of a text selection
+/// @group Colors
+/// @type Color
+$color--element--selection--background: mix($color__body--background, $color-secondary, 75%);

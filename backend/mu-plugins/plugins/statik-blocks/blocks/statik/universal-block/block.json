@@ -1,0 +1,34 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "statik/universal-block",
+	"version": "4.13.0",
+	"title": "UniversalBlock",
+	"category": "layout",
+	"description": "",
+	"keywords": [],
+	"textdomain": "statik-blocks",
+	"attributes": {
+		"height": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": [ "100px" ]
+		},
+		"blockType": {
+			"type": "string",
+			"default": ""
+		},
+		"block": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"anchor": true
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

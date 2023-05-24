@@ -1,0 +1,47 @@
+.skeleton {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(211, 211, 211);
+	z-index: 0;
+	overflow: hidden;
+	border-radius: 3px;
+	color: transparent;
+}
+
+.skeleton__activity {
+	display: block;
+	overflow: hidden;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.skeleton__activity > span {
+	position: absolute;
+	top: 0;
+	left: -45%;
+	height: 100%;
+	width: 45%;
+	background-image: linear-gradient(to left, rgba(231, 231, 231, 0.05), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.6), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.05));
+	/* stylelint-disable function-linear-gradient-no-nonstandard-direction */
+	background-image: -moz-linear-gradient(to left, rgba(231, 231, 231, 0.05), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.6), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.05));
+	background-image: -webkit-linear-gradient(to left, rgba(231, 231, 231, 0.05), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.6), rgba(231, 231, 231, 0.3), rgba(231, 231, 231, 0.05));
+	/* stylelint-enable function-linear-gradient-no-nonstandard-direction */
+	animation: loading 1s infinite;
+	z-index: 1;
+}
+
+@keyframes loading {
+
+	0% {
+		left: -45%;
+	}
+
+	100% {
+		left: 100%;
+	}
+}

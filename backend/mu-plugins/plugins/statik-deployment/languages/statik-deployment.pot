@@ -1,0 +1,808 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Statik Deployment\n"
+"POT-Creation-Date: 2023-02-16 08:04+0100\n"
+"PO-Revision-Date: 2023-01-02 08:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: Statik.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: src/Dashboard/AdminBar.php:97
+msgid "Add new"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:106
+msgid "No environment"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:273
+msgid "History not supported"
+msgstr ""
+
+#. translators: Deployment page URL for environment
+#: src/Dashboard/AdminBar.php:288
+msgid "Deploying now..."
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:294
+msgid "See progress"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:306 src/Dashboard/AdminBar.php:358
+msgid "Deploy now"
+msgstr ""
+
+#. translators: Human readable time since last deployment
+#: src/Dashboard/AdminBar.php:314 src/Dashboard/AdminBar.php:331
+#, php-format
+msgid "~%s ago"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:317
+#, php-format
+msgid "%d change"
+msgid_plural "%d changes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dashboard/AdminBar.php:318
+msgid "No changes"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:337
+msgid "Deploy again"
+msgstr ""
+
+#. translators: Human readable time since last deployment
+#: src/Dashboard/AdminBar.php:352
+msgid "Not deployed yet"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:371 src/Utils/User.php:21
+msgid "[Automatic deployment]"
+msgstr ""
+
+#: src/Dashboard/AdminBar.php:373 src/Utils/User.php:39
+msgid "[Unknown user]"
+msgstr ""
+
+#. translators: %s: environment name
+#: src/Dashboard/Dashboard.php:107
+#, php-format
+msgid "Are you sure you want to deploy all changes to %s environment?"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:109 src/Dashboard/Dashboard.php:151
+#: src/Dashboard/DeploymentLock.php:50 src/Dashboard/Page/SettingsPage.php:69
+#: src/Dashboard/Page/SettingsPage.php:304
+#: src/Partials/AdminBar/ItemHeader.php:19
+#: src/Partials/DeploymentHistoryPage.php:32
+#: src/Partials/DeploymentHistoryPage.php:49 src/Partials/DeploymentPage.php:27
+#: src/Partials/DeploymentPage.php:44
+#: src/Partials/SettingsEnvironmentsPage.php:26
+msgid "[Untitled environment]"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:113
+msgid "Deployment name"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:116
+msgid ""
+"The deployment name will be displayed in the list of historical deployments "
+"and can be used to identify the release."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:124
+msgid "Flush builder cache"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:127
+msgid ""
+"In some cases, it may be advisable to clear the cache of the build machine "
+"so that all data from the WP instance is fully fetched. This will extend the "
+"duration of the deployment."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:136
+msgid "Set as a current release"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:139
+msgid ""
+"After the deployment is completed, the release will be automatically set as "
+"live."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:144
+msgid "Deploy"
+msgstr ""
+
+#. translators: %s: environment name
+#: src/Dashboard/Dashboard.php:149
+#, php-format
+msgid "Are you sure you want to permanently remove %s environment?"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:153
+msgid "This action cannot be undone."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:154
+msgid "Confirm delete"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:158
+msgid "Are you sure you want to rollback to selected release?"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:161
+msgid "The change will be visible within a few minutes."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:162
+msgid "Confirm rollback"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:165
+msgid ""
+"Request cannot be processed because of an internal API communication error"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:187 src/Dashboard/Page/SettingsPage.php:259
+msgid "Your settings have not been updated. Please try again!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:204
+msgid "Your settings have been updated."
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:221
+msgid "The release has not been changed. Please try again!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:228
+msgid "You are not permitted to do that. Please contact administrator!"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:242
+#, php-format
+msgid "The release has not been changed. Error occurred: %s"
+msgstr ""
+
+#: src/Dashboard/Dashboard.php:255
+#, php-format
+msgid "The current release has been updated to ID: %s."
+msgstr ""
+
+#: src/Dashboard/DeploymentLock.php:65
+#, php-format
+msgid ""
+"The deployment performed by %1$s to the %2$s environment is currently in "
+"progress."
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentHistoryPage.php:21
+msgid "Statik Deployment History"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentHistoryPage.php:22
+msgid "Deployment History"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:21
+msgid "Statik Deployment"
+msgstr ""
+
+#: src/Dashboard/Page/DeploymentPage.php:22
+#: src/Partials/AdminBar/MainItem.php:16
+msgid "Deployment"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:77
+msgid "Preview settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:83
+msgid "Preview support"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:84
+msgid "Beta"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:87
+msgid ""
+"Whether preview functionality should be activated.  After clicking the "
+"`Preview` button on the edit screen new fast build will be created."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:97
+msgid "Preview environment"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:99
+msgid ""
+"This environment will be used for the Preview functionality. This "
+"environment will be also opened if the `View` button is clicked."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:112
+msgid "Changes logger settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:116
+msgid "Supported custom post types"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:118
+msgid ""
+"Posts from selected CPTs will be displayed in the changes table on the "
+"Deployment page when anyone makes any change to them."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:136
+msgid "Automatic deployments settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:140
+msgid "Trigger deployment"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:142
+msgid "List of triggers that can execute a deployment."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:148
+#: src/Dashboard/Page/SettingsPage.php:187
+msgid "Environment"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:155
+msgid "Action"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:159
+msgid "After publishing a scheduled post"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:162
+msgid "After expired a post"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:179
+msgid "Custom actions"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:181
+msgid ""
+"Past one-time execution actions will be executed in the next queue and "
+"removed from the list."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:194
+msgid "First execution"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:196
+msgid ""
+"When past date will be provided or left empty, event will be executed in the "
+"next queue."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:203
+msgid "Schedule"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:207
+msgid "Don't repeat"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:222
+msgid "Debug settings"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:226
+msgid "Debug mode"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:228
+msgid "Whether plugin requests should execute in \"debug\" mode."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:236
+msgid "Dashboard locker"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:238
+msgid ""
+"Whether dashboard locker should be shown. Recommended in Production "
+"environment."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:270
+#, php-format
+msgid "Environment %s already exists. Please try again with another name!"
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:282
+#, php-format
+msgid "Environment %s has been created."
+msgstr ""
+
+#: src/Dashboard/Page/SettingsPage.php:303
+#, php-format
+msgid "Environment %s has been removed."
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:35
+#: src/Dashboard/Table/HistoryTable.php:36
+msgid "Deployment history"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:86
+msgid "View website"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:87
+msgid "Preview"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:88
+msgid "View release"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:109
+msgid "Rollback to this deployment"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:142
+msgid "The post cannot be recognized because it may have been deleted."
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:151
+#, php-format
+msgid "...and %d more"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:175
+msgid ""
+"The deployment used one-time user credentials to confirm access to resources."
+msgstr ""
+
+#. translators: 1 - Human readable time since last deployment, 2 - Deployment date
+#: src/Dashboard/Table/HistoryTable.php:196
+#, php-format
+msgid "~%1$s ago %2$s"
+msgstr ""
+
+#. translators: 1 - Human readable duration of last deployment, 2 - Deployment date
+#: src/Dashboard/Table/HistoryTable.php:217
+#, php-format
+msgid "~%1$s %2$s"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:232
+msgid "View build log"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:242
+#: src/Dashboard/Table/PostsTable.php:147
+msgid "Status"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:246
+msgid "Preview post"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:247
+msgid "Deployed changes"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:249
+msgid ""
+"This list may be incomplete or incorrect, in case the previous deployment "
+"has not been done in this WordPress instance."
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:254
+msgid "Performed by"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:255
+msgid "Start"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:256
+msgid "Duration"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:257
+msgid "Log"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:292
+msgid "Filter by type"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:296
+msgid "Regular deployments"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:299
+msgid "Preview deployments"
+msgstr ""
+
+#: src/Dashboard/Table/HistoryTable.php:302
+msgid "Filter"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:26 src/Dashboard/Table/PostsTable.php:27
+msgid "Changes since the last deployment"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:66
+msgid "Restore"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:71
+msgid "Delete Permanently"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:79
+msgid "Edit"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:84
+msgid "View"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:89
+msgid "Delete"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:98
+msgid "View revisions"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:145
+msgid "Post name"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:146
+msgid "Post type"
+msgstr ""
+
+#: src/Dashboard/Table/PostsTable.php:148
+msgid "Last update"
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:100
+msgid "The request was terminated due to an error"
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:119
+#: src/Deployment/DeploymentManager.php:146
+#: src/Deployment/DeploymentManager.php:192
+#: src/Deployment/DeploymentManager.php:210
+msgid "Missing or invalid deployment provider."
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:264
+msgid "Environment settings"
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:268
+msgid "Environment name"
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:270
+msgid ""
+"The display name is used to identify the environment within the dashboard."
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:277
+msgid "Provider"
+msgstr ""
+
+#: src/Deployment/DeploymentManager.php:279
+msgid ""
+"The selected provider is responsible for managing the deployment process."
+msgstr ""
+
+#: src/Deployment/Logger/PostLogger.php:95
+msgid "The author of the change cannot be recognized."
+msgstr ""
+
+#: src/Deployment/Provider/Api/AbstractApi.php:80
+msgid "Invalid response from the API service: "
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Api.php:33
+msgid "Missing or invalid `API hook` value."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Api.php:39
+msgid "Missing or invalid `API token` value."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:25
+msgid "Statik provider settings"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:26
+msgid "Settings required to fill in to make provider work."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:30
+msgid "API hook"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:32
+msgid "The URL of the API endpoint that can be used to manage deployments."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:44
+msgid "API token"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:45
+msgid "Token used to authorize API calls."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:55
+msgid "Site path prefix"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:57
+msgid ""
+"This prefix is used during the build in case of using a multisite instance. "
+"Mostly, the value is equal to WP multisite blog path."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:83
+msgid "Schedule deployment to start"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:85
+msgid ""
+"Deployment is queued up for launch. This can take up to several minutes, "
+"depending on the server load."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:93
+msgid "Pull and analyze the source code"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:95
+msgid ""
+"The source code of the application is downloaded from the repository and "
+"analysed to see if it can be run."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:103
+msgid "Install external Node dependencies"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:105
+msgid ""
+"External Node dependencies are installed. This action is performed during "
+"the initial deployment and with every change to the source code."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:113
+msgid "Build static Gatsby application"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:115
+msgid ""
+"The Gatsby application is built. This is the most time-consuming deployment "
+"process during which, data is pulled from the WordPress instance and static "
+"pages are generated."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:123
+msgid "Deploy to storage bucket"
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:125
+msgid ""
+"The generated static Gatsby page is transferred to the destination bucket "
+"and made public."
+msgstr ""
+
+#: src/Deployment/Provider/Statik/Settings.php:131
+msgid "Finish up the deployment process and make it live"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:62
+#, php-format
+msgid "Go to deploy %s environment page"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:70 src/Partials/DeploymentPage.php:72
+#, php-format
+msgid "Open %s frontend website"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:92
+#: src/Partials/DeploymentPage.php:130
+#: src/Partials/SettingsEnvironmentsPage.php:64
+#: src/Partials/Tables/HistoryNoResults.php:19
+#: src/Partials/Tables/PostsNoResults.php:15
+msgid "There is nothing here yet"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:95
+#: src/Partials/DeploymentPage.php:133
+#, php-format
+msgid "Go to %s and add your first environment!"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:96
+#: src/Partials/DeploymentPage.php:134
+msgid "settings page"
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:104
+#: src/Partials/DeploymentPage.php:142
+msgid "Log file content is loading..."
+msgstr ""
+
+#: src/Partials/DeploymentHistoryPage.php:106
+#: src/Partials/DeploymentPage.php:144
+msgid "Log file content cannot be loaded"
+msgstr ""
+
+#: src/Partials/DeploymentLockPopup.php:28
+msgid ""
+"During the deployment, you cannot perform any save and update actions in the "
+"Dashboard. If you don't want to lose unsaved changes, just wait, this modal "
+"will disappear after deployment is complete."
+msgstr ""
+
+#: src/Partials/DeploymentLockPopup.php:36
+msgid "Show the deployment process"
+msgstr ""
+
+#: src/Partials/DeploymentPage.php:57
+#, php-format
+msgid "Deploy %s environment"
+msgstr ""
+
+#: src/Partials/DeploymentPage.php:117
+msgid "Request finished successfully after "
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:25
+msgid "Generating preview..."
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:25
+msgid "Preview error"
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:33
+#, php-format
+msgid ""
+"The deployment is in <strong>%s</strong> status.<br/> You will be redirected "
+"to the preview page as soon as it is ready."
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:58
+msgid "Generating preview"
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:72
+msgid "Error"
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:73
+msgid ""
+"The preview build could not be completed due to an error. Please try again "
+"or contact the website administrator."
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:77 src/Rest/V1/Deployment.php:167
+msgid "There was an error in the deployment process."
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:81
+msgid "View details"
+msgstr ""
+
+#: src/Partials/Preview/PreviewTrigger.php:87
+msgid "Powered by Statik Platform"
+msgstr ""
+
+#: src/Partials/SettingsEnvironmentsPage.php:38
+msgid "Add"
+msgstr ""
+
+#: src/Partials/SettingsEnvironmentsPage.php:41
+msgid "Let's add your first environment!"
+msgstr ""
+
+#: src/Partials/SettingsEnvironmentsPage.php:58
+msgid "Delete environment"
+msgstr ""
+
+#: src/Partials/Tables/HistoryNoResults.php:16
+msgid "There was an error"
+msgstr ""
+
+#: src/Partials/Tables/HistoryNoResults.php:22
+msgid ""
+"A list of all implementations made for this environment will be displayed "
+"here."
+msgstr ""
+
+#: src/Partials/Tables/PostsNoResults.php:18
+msgid ""
+"If anyone makes changes to any of the supported CPTs, that information will "
+"be displayed here."
+msgstr ""
+
+#: src/Plugin.php:88
+msgid "The plugin requires at least PHP 8.0"
+msgstr ""
+
+#: src/Rest/V1/Deployment.php:95 src/Rest/V1/Deployment.php:148
+#: src/Rest/V1/Deployment.php:210
+msgid "Environment does not exists."
+msgstr ""
+
+#: src/Rest/V1/Deployment.php:232
+msgid "Log content cannot be fetched."
+msgstr ""
+
+#: src/Utils/User.php:23
+msgid ""
+"The deployment was triggered automatically by a CRON task. These actions can "
+"be edited in the Deployment Settings."
+msgstr ""
+
+#: src/Utils/User.php:32
+msgid ""
+"The deployment was made from a different WordPress instance or the Statik "
+"Dashboard and the email address cannot be recognised."
+msgstr ""
+
+#: src/Utils/User.php:41
+msgid ""
+"The user cannot be recognised in this WordPress instance. Log in to the "
+"Statik Dashboard to see more details."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Statik Deployment"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://statik.space/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Statik plugin for deployment JAMStack infrastructure."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Statik LTD"
+msgstr ""

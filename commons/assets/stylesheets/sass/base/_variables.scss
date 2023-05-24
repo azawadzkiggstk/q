@@ -1,0 +1,67 @@
+:root {
+  //***
+  //colors
+  //***
+  --color-primary: #{$color-primary};
+  --color-primary-contrast: #{$color-primary-contrast};
+  --color-secondary: #{$color-secondary};
+  --color-secondary-contrast: #{$color-secondary-contrast};
+  --color-tertiary: #{$color-tertiary};
+  --color-text-base: #{$color-text};
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  --color-background-primary: #{$color-background-primary};
+  --color-background-secondary: #{$color-background-secondary};
+
+  //********************
+  //TYPOGRAPHY
+  //********************
+
+  //***
+  //font-families
+  //***
+  --font-family: #{$font-family};
+  --font-family-headings: #{$font-family-headings};
+  --font-family-pre: #{$font-family-pre};
+  --font-family-code: #{$font-family-code};
+
+  //***
+  //font-weights
+  //***
+  --font-weight-light: #{$font-weight-light};
+  --font-weight-regular: #{$font-weight-regular};
+  --font-weight-bold: #{$font-weight-bold};
+  --font-weight-black: #{$font-weight-black};
+
+  //heading font weights for gutenberg configuration
+  --font-weight-h1: #{$font-weight-h1};
+  --font-weight-h2: #{$font-weight-h2};
+  --font-weight-h3: #{$font-weight-h3};
+  --font-weight-h4: #{$font-weight-h4};
+  --font-weight-h5: #{$font-weight-h5};
+  --font-weight-h6: #{$font-weight-h6};
+
+  //***
+  //line-heights
+  //***
+  --font-line-height-body: #{$font-line-height-body};
+  --font-line-height-heading: #{$font-line-height-heading};
+  --font-line-height-extras: #{$font-line-height-extras};
+
+  //***
+  //font-sizes
+  //***
+
+  //headings
+  --font-size-h1: #{$font-size-h1};
+  --font-size-h2: #{$font-size-h2};
+  --font-size-h3: #{$font-size-h3};
+  --font-size-h4: #{$font-size-h4};
+  --font-size-h5: #{$font-size-h5};
+  --font-size-h6: #{$font-size-h6};
+
+  //paragraphs
+  --font-size: #{$font-size};
+  --font-size-small: #{$font-size-small};
+}
+

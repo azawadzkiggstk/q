@@ -1,0 +1,38 @@
+{
+  "name": "statik-boilerplate",
+  "version": "6.0.4",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Statik",
+  "author": "Statik Team <hello@statik.space>",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://statik.space/",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "packageManager": "yarn@3.2.1",
+  "config": {
+    "statik": true
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "@wordpress/base-styles": "^4.0.4"
+  },
+  "devDependencies": {
+    "@statik-space/stylelint-config-statik": "^1.0.0",
+    "stylelint": "^14.6.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "scripts": {
+    "backend:docker": "yarn workspace backend run docker",
+    "backend:build": "yarn workspace backend run build",
+    "backend:develop": "yarn workspace backend run develop",
+    "frontend:build": "yarn workspace frontend run build",
+    "frontend:develop": "yarn workspace frontend run develop",
+    "frontend:clean": "yarn workspace frontend run clean",
+    "frontend:serve": "yarn workspace frontend run serve",
+    "stylelint": "stylelint \"**/*.{scss,sass}\""
+  }
+}

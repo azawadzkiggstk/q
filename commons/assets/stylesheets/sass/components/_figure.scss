@@ -1,0 +1,10 @@
+/// Defines properties supposed to be applied to `<figure>` html tags.
+/// @group Components
+figure {
+  figcaption {
+    color: #111;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+  }
+}

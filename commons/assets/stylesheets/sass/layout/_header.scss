@@ -1,0 +1,65 @@
+@import './header/navigation-desktop';
+@import './header/navigation-mobile';
+@import './header/search';
+
+
+/**
+    * Default header pattern defined within a Gatsby.js theme.
+    * It adds default styling scoped inside `.site-header` selector.
+    * The idea is to allow quick kick off the development phase with
+    * a default styling. If you need to update some specific
+    * properties, simply declare `.site-header` and override what you
+    * need. In case the project requires major changes to the header
+    * it is better to remove the @extend and define a complete header
+    * styling from scratch. Search for %default-header pattern to
+    * get the default styling.
+    */
+
+/* Sticky header custom styling */
+//&.has-sticky-header {
+.main-header.main-header--is-sticky {
+  &::before {
+    transform: translateY(0);
+  }  
+}
+//}
+
+.main-header {
+  @include clearfix;
+  align-items: center;
+  background: $color-primary-contrast;
+  box-shadow: 0 0 10px 0 rgba(144, 145, 160, 1);
+  display: flex;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  
+  @include respond-to('lg') {
+    padding: 0;
+  }
+}
+        
+.main-header__container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.main-header__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__branding {
+  align-items: center;
+  display: flex;
+  hyphens: auto;
+  position: relative;
+  word-wrap: break-word;
+}
+

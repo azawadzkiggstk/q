@@ -1,0 +1,65 @@
+/// Defines properties of a default boilerplate search experience.
+/// It can be consumed within project styles or replaced with
+/// custom definitions based on specific project needs. Please
+/// do *not* modify this pattern unless you want to apply
+/// changes to the boilerplate header.
+
+.search--switchable {
+  height: 2rem;
+  position: relative;
+  width: 2rem;
+  z-index: 10;
+}
+
+.search__container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 400px;
+}
+
+.search__input {
+  border: 1px solid $color-text;
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+}
+
+.search__button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.search__results {
+  background: $color-primary-contrast;
+  border-radius: 0 0 20px 20px;
+
+}
+
+.search__results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.search__single-result {
+  transition: background 0.3s;
+  
+  a,
+  span {
+    color: $color-text;
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+  }
+  
+  &:hover {
+    background-color: darken($color-primary-contrast, 6);
+  }
+}
+
+
